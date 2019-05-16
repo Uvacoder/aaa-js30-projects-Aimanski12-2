@@ -2,11 +2,11 @@
 
 This project is inspired by WesBos [Javascript30](https://javascript30.com/) projects. It is a musical keyboard that allows you to create music on the fly. Thank you for checking this project out and enjoy. 
 
-[Watch Short Video Clip](https://www.youtube.com/watch?v=RHSBdVFhjZs&feature=youtu.be).
+[Watch Short Video Clip](https://www.youtube.com/watch?v=4dpbqbb1AWQ&feature=youtu.be).
 
 <div float="left">
-  <a href="https://www.youtube.com/watch?v=RHSBdVFhjZs&feature=youtu.be">
-    <img src="https://user-images.githubusercontent.com/32781697/57206082-c56cfb80-6f88-11e9-8d76-a94aef05d1f2.gif" alt="screen shot">
+  <a href="https://www.youtube.com/watch?v=4dpbqbb1AWQ&feature=youtu.be">
+    <img src="https://user-images.githubusercontent.com/32781697/57826349-87ca5880-7768-11e9-8d04-098de21edeb4.jpg" alt="screen shot">
   </a>
 </div>
 
