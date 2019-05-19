@@ -34,8 +34,8 @@ This is an app that outputs digital and analog clock on your browser. The analog
 
 This project is a simple musical keyboard that plays a sound whenever you press a key that corresponds to the sound. This application allows you to create simple music rythms on the fly. 
 
-[View it from your browser]().
-[Watch Short Video Clip](https://www.youtube.com/watch?v=4dpbqbb1AWQ&feature=youtu.be).
+[View it from your browser](https://aimanski-js01-musickeyboard.herokuapp.com/) or
+[Watch Short Video Clip](https://www.youtube.com/watch?v=4dpbqbb1AWQ&feature=youtu.be). <br>
 [View project source code](https://github.com/Aimanski12/Javascript_Projects).
 
 
