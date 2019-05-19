@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Cherry+Cream+Soda|Joti+One|Rye|Salsa|Supermercado+One"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>Analog Clock</title>
+</head>
+<body>
+  <h1></h1>
+  <div class="clock">
+    <div class="clock-face">
+      <div class="hand hour-hand"><div></div></div>
+      <div class="hand min-hand"><div></div></div>
+      <div class="hand second-hand"><div></div></div>
+      <div class=' hand center'><div></div></div>
+    </div>
+  </div>
+</body>
+<script>
+  const sec = document.querySelector('.second-hand')
+  const min = document.querySelector('.min-hand')
+  const hr = document.querySelector('.hour-hand')
+  const h1 = document.querySelector('h1')
+  function setDate(){
+    const now = new Date()
+    const seconds = now.getSeconds()
+    const minute = now.getMinutes()
+    const hour = now.getHours()
+    const digiHour = hour > 12 ? (hour-12) : hour
+    const midi = hour <= 12 ? 'am' : 'pm'
+
+    const secDeg = (seconds / 60) * 360 + 90
+    const minDeg = ((minute / 60)  * 360) + ((seconds / 60) * 6 )+ 90
+
+    const hrDeg = (hour * 30) + ((minute / 60)*30) + 90
+    sec.style.transform = `rotate(${secDeg}deg)`
+    min.style.transform = `rotate(${minDeg}deg)`
+    hr.style.transform = `rotate(${hrDeg}deg)`
+    h1.innerText = `${digiHour}:${minute}:${seconds} ${midi}`
+
+  }
+
+  setInterval(setDate, 1000)
+
+</script>
+
+</html>
