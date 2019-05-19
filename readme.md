@@ -14,14 +14,14 @@ The projects are listed from the latest. :arrow_up:
 
 This is an app that outputs digital and analog clock on your browser. The analog clock is using javascript and css animations.
 
-[View it from your browser]().
-[Watch Short Video Clip](https://www.youtube.com/watch?v=4dpbqbb1AWQ&feature=youtu.be).
-[View project source code](https://github.com/Aimanski12/Javascript_Projects).
+[View it from your browser](https://aimanski-js02-clock.herokuapp.com/) <br>
+[Watch Short Video Clip](https://www.youtube.com/watch?v=vOa3j6Z2vrw). <br>
+[View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj02).
 
 
 <div float="left">
-  <a href="https://www.youtube.com/watch?v=4dpbqbb1AWQ&feature=youtu.be">
-    <img src="https://user-images.githubusercontent.com/32781697/57826349-87ca5880-7768-11e9-8d04-098de21edeb4.jpg" alt="screen shot">
+  <a href="https://www.youtube.com/watch?v=vOa3j6Z2vrw">
+    <img src="https://user-images.githubusercontent.com/32781697/57983633-ecf8a500-7a19-11e9-9a20-28704f18e800.gif" alt="screen shot">
   </a>
 </div>
 </details>
@@ -34,7 +34,7 @@ This is an app that outputs digital and analog clock on your browser. The analog
 
 This project is a simple musical keyboard that plays a sound whenever you press a key that corresponds to the sound. This application allows you to create simple music rythms on the fly. 
 
-[View it from your browser](https://aimanski-js01-musickeyboard.herokuapp.com/) or
+[View it from your browser](https://aimanski-js01-musickeyboard.herokuapp.com/) <br>
 [Watch Short Video Clip](https://www.youtube.com/watch?v=4dpbqbb1AWQ&feature=youtu.be). <br>
 [View project source code](https://github.com/Aimanski12/Javascript_Projects).
 
