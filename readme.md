@@ -8,7 +8,7 @@ Analog Clock is a great exercise for your javascript skills. So I decided to bui
 
 <div float="left">
   <a href="https://www.youtube.com/watch?v=vOa3j6Z2vrw">
-    <img src="ttps://user-images.githubusercontent.com/32781697/57983633-ecf8a500-7a19-11e9-9a20-28704f18e800.gif" alt="screen shot">
+    <img src="https://user-images.githubusercontent.com/32781697/57983633-ecf8a500-7a19-11e9-9a20-28704f18e800.gif" alt="screen shot">
   </a>
 </div>
 
