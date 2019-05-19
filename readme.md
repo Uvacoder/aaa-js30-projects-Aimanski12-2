@@ -2,7 +2,9 @@
 
 This project is inspired by WesBos [Javascript30](https://javascript30.com/) projects. It is a musical keyboard that allows you to create music on the fly. Thank you for checking this project out and enjoy. 
 
-[Watch Short Video Clip](https://www.youtube.com/watch?v=4dpbqbb1AWQ&feature=youtu.be).
+[View it from your browser](https://aimanski-js01-musickeyboard.herokuapp.com/) or
+[Watch Short Video Clip](https://www.youtube.com/watch?v=4dpbqbb1AWQ&feature=youtu.be). <br>
+[View project source code](https://github.com/Aimanski12/Javascript_Projects).
 
 <div float="left">
   <a href="https://www.youtube.com/watch?v=4dpbqbb1AWQ&feature=youtu.be">
