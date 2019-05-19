@@ -2,13 +2,13 @@
 
 Analog Clock is a great exercise for your javascript skills. So I decided to build one. This project is using Vanilla Javascript DOM Manipulation to allow transitions animation. 
 
-[View it from your browser](https://aimanski-js01-musickeyboard.herokuapp.com/) or
-[Watch Short Video Clip](https://www.youtube.com/watch?v=4dpbqbb1AWQ&feature=youtu.be). <br>
-[View project source code](https://github.com/Aimanski12/Javascript_Projects).
+[View it from your browser](https://aimanski-js02-clock.herokuapp.com/) or
+[Watch Short Video Clip](https://www.youtube.com/watch?v=vOa3j6Z2vrw). <br>
+[View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj02).
 
 <div float="left">
-  <a href="https://www.youtube.com/watch?v=4dpbqbb1AWQ&feature=youtu.be">
-    <img src="https://user-images.githubusercontent.com/32781697/57826349-87ca5880-7768-11e9-8d04-098de21edeb4.jpg" alt="screen shot">
+  <a href="https://www.youtube.com/watch?v=vOa3j6Z2vrw">
+    <img src="ttps://user-images.githubusercontent.com/32781697/57983633-ecf8a500-7a19-11e9-9a20-28704f18e800.gif" alt="screen shot">
   </a>
 </div>
 
