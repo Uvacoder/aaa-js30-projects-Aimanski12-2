@@ -8,6 +8,13 @@ The projects are listed from the latest. :arrow_up:
 
 
 <details>
+<summary><strong>03. Pairing Game</strong></summary>
+
+### Overview :sunglasses:
+
+</details>
+
+<details>
 <summary><strong>02. Digital Clock</strong></summary>
 
 ### Overview :sunglasses:
