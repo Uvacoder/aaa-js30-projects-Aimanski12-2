@@ -8,7 +8,7 @@ The projects are listed from the latest. :arrow_up:
 
 
 <details>
-<summary><strong>03. Pairing Game</strong></summary>
+<summary><strong>03. Another Clock</strong></summary>
 
 ### Overview :sunglasses:
 
