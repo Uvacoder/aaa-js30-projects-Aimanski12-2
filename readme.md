@@ -1,64 +1,51 @@
-## Javacript Projects
+## Analog Clock
 
-Welcome to my Javascript Projects. This repo houses my javascript projects. Some items in this project are inspired by WesBos' [Javascript30](https://javascript30.com/) Project Challenge. Thank you for taking time to check this repo.
+Analog Clock is a great exercise for your javascript skills. So I decided to build one. This project is using Vanilla Javascript DOM Manipulation to allow transitions animation. 
 
-## Table of Contents
-
-The projects are listed from the latest. :arrow_up:
-
-
-<details>
-<summary><strong>03. Another Clock</strong></summary>
-
-### Overview :sunglasses:
-
-</details>
-
-<details>
-<summary><strong>02. Digital Clock</strong></summary>
-
-### Overview :sunglasses:
-
-This is an app that outputs digital and analog clock on your browser. The analog clock is using javascript and css animations.
-
-[View it from your browser](https://aimanski-js02-clock.herokuapp.com/) <br>
+[View it from your browser](https://aimanski-js02-clock.herokuapp.com/) or
 [Watch Short Video Clip](https://www.youtube.com/watch?v=vOa3j6Z2vrw). <br>
-[View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj02).
-
 
 <div float="left">
   <a href="https://www.youtube.com/watch?v=vOa3j6Z2vrw">
     <img src="https://user-images.githubusercontent.com/32781697/57983633-ecf8a500-7a19-11e9-9a20-28704f18e800.gif" alt="screen shot">
   </a>
 </div>
-</details>
 
+> Thing I learned in this project;
+  * How to instantiate time with `Date()` and generate interactivity.
+  * How to transform elements and add transition based on time events.
+  * How to rotate elements `in degrees`. 
+  * How to add animations (time and transitions) before and after an event.
 
-<details>
-<summary><strong>01. Music Keyboard</strong></summary>
+> References:
+  * [Document Query Selector](https://developer.mozilla.org/en-US/docs/Web/API/
+  Document)
+  * [Javascript Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
 
-### Overview :sunglasses:
+## Installation
 
-This project is a simple musical keyboard that plays a sound whenever you press a key that corresponds to the sound. This application allows you to create simple music rythms on the fly. 
+Download the repo with:
 
-[View it from your browser](https://aimanski-js01-musickeyboard.herokuapp.com/) <br>
-[Watch Short Video Clip](https://www.youtube.com/watch?v=4dpbqbb1AWQ&feature=youtu.be). <br>
-[View project source code](https://github.com/Aimanski12/Javascript_Projects).
+```bash
+$ git clone https://github.com/Aimanski12/Javascript_Projects/tree/proj02 proj-name
+```
 
+After downloading the repo you can cd into the proj-name and then run the application with the live-server. All the assets are already included so you can run the application and it will work. 
 
-<div float="left">
-  <a href="https://www.youtube.com/watch?v=4dpbqbb1AWQ&feature=youtu.be">
-    <img src="https://user-images.githubusercontent.com/32781697/57826349-87ca5880-7768-11e9-8d04-098de21edeb4.jpg" alt="screen shot">
-  </a>
-</div>
-</details>
+## Contributing
+
+If you find bugs with this project, pull requests are always welcome. You can [create an issue here](https://github.com/Aimanski12/Javascript_Projects/issues/new).
+Your :star: are also greatly appreciated.
+
+[View other projects](https://github.com/Aimanski12/Javascript_Projects)
 
 ## Author
 
-[Aimanski12](https://github.com/Aimanski12).
-Thank you very very much for giving this project a :star:
+[Aimanski](https://github.com/Aimanski12).
 
 ## License 
 
 Copyright © 2019, [Aimanski12](https://github.com/Aimanski12).
 Released under the [MIT License](LICENSE).
+
+
