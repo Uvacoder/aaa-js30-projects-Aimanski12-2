@@ -1,33 +1,32 @@
 ## Analog Clock
 
-Analog Clock is a great exercise for your javascript skills. So I decided to build one. This project is using Vanilla Javascript DOM Manipulation to allow transitions animation. 
+This Analog Clock is built from [p5.js](https://p5js.org/) a JS client-side library for creating graphic and interactive experiences for the user. 
 
-[View it from your browser](https://aimanski-js02-clock.herokuapp.com/) or
-[Watch Short Video Clip](https://www.youtube.com/watch?v=vOa3j6Z2vrw). <br>
+[View it live from your browser](https://aimanski-js03-clock.herokuapp.com/) or
+[Watch Short Video Clip](https://www.youtube.com/watch?v=KEb3TGOjB5Y&feature=youtu.be). <br>
 
 <div float="left">
-  <a href="https://www.youtube.com/watch?v=vOa3j6Z2vrw">
-    <img src="https://user-images.githubusercontent.com/32781697/57983633-ecf8a500-7a19-11e9-9a20-28704f18e800.gif" alt="screen shot">
+  <a href="https://www.youtube.com/watch?v=KEb3TGOjB5Y&feature=youtu.be">
+    <img src="https://user-images.githubusercontent.com/32781697/58377318-fff00580-7f42-11e9-803f-88fbffc9e4af.gif" alt="screen shot">
   </a>
 </div>
 
 > Thing I learned in this project;
+  * How to create elements in a browser with p5.js and animate it smoothly.
   * How to instantiate time with `Date()` and generate interactivity.
-  * How to transform elements and add transition based on time events.
-  * How to rotate elements `in degrees`. 
-  * How to add animations (time and transitions) before and after an event.
+  * (as a refresher) How to solve equations related to arcs, radius, pi, and degrees.
+  * 
 
 > References:
-  * [Document Query Selector](https://developer.mozilla.org/en-US/docs/Web/API/
-  Document)
-  * [Javascript Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
+  * [p5.js](https://p5js.org/get-started/#sketch) Basic Setup.
+  * [Basic Arc Geometry](https://en.wikipedia.org/wiki/Arc_(geometry))
 
 ## Installation
 
 Download the repo with:
 
 ```bash
-$ git clone https://github.com/Aimanski12/Javascript_Projects/tree/proj02 proj-name
+$ git clone https://github.com/Aimanski12/Javascript_Projects/tree/proj03 proj-name
 ```
 
 After downloading the repo you can cd into the proj-name and then run the application with the live-server. All the assets are already included so you can run the application and it will work. 
