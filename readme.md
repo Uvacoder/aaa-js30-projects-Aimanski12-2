@@ -8,20 +8,34 @@ The projects are listed from the latest. :arrow_up:
 
 
 <details>
-<summary><strong>03. Another Clock</strong></summary>
+<summary><strong>03. Analog Clock</strong></summary>
 
 ### Overview :sunglasses:
+
+This Analog Clock is built from [p5.js](https://p5js.org/) a JS client-side library for creating graphic and interactive experiences for the user. <br>
+You can use this app if you need to run some clock on your desktop.
+
+[View it live from your browser](https://aimanski-js03-clock.herokuapp.com/) <br>
+[Watch Short Video Clip](https://www.youtube.com/watch?v=KEb3TGOjB5Y&feature=youtu.be) <br>
+[View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj03)
+
+
+<div float="left">
+  <a href="https://www.youtube.com/watch?v=KEb3TGOjB5Y&feature=youtu.be">
+    <img src="https://user-images.githubusercontent.com/32781697/58377318-fff00580-7f42-11e9-803f-88fbffc9e4af.gif" alt="screen shot">
+  </a>
+</div>
 
 </details>
 
 <details>
-<summary><strong>02. Digital Clock</strong></summary>
+<summary><strong>02. Analog & Digital Clock</strong></summary>
 
 ### Overview :sunglasses:
 
 This is an app that outputs digital and analog clock on your browser. The analog clock is using javascript and css animations.
 
-[View it from your browser](https://aimanski-js02-clock.herokuapp.com/) <br>
+[View it live from your browser](https://aimanski-js02-clock.herokuapp.com/) <br>
 [Watch Short Video Clip](https://www.youtube.com/watch?v=vOa3j6Z2vrw). <br>
 [View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj02).
 
@@ -41,7 +55,7 @@ This is an app that outputs digital and analog clock on your browser. The analog
 
 This project is a simple musical keyboard that plays a sound whenever you press a key that corresponds to the sound. This application allows you to create simple music rythms on the fly. 
 
-[View it from your browser](https://aimanski-js01-musickeyboard.herokuapp.com/) <br>
+[View it live from your browser](https://aimanski-js01-musickeyboard.herokuapp.com/) <br>
 [Watch Short Video Clip](https://www.youtube.com/watch?v=4dpbqbb1AWQ&feature=youtu.be). <br>
 [View project source code](https://github.com/Aimanski12/Javascript_Projects).
 
