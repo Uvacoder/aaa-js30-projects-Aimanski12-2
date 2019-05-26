@@ -1,6 +1,7 @@
 ## Analog Clock
 
-This Analog Clock is built from [p5.js](https://p5js.org/) a JS client-side library for creating graphic and interactive experiences for the user. 
+This Analog Clock is built from [p5.js](https://p5js.org/) a JS client-side library for creating graphic and interactive experiences for the user. <br>
+You can use this app if you need to run some clock on your desktop.
 
 [View it live from your browser](https://aimanski-js03-clock.herokuapp.com/) or
 [Watch Short Video Clip](https://www.youtube.com/watch?v=KEb3TGOjB5Y&feature=youtu.be). <br>

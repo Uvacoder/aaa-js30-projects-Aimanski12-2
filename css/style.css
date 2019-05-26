@@ -12,3 +12,17 @@ canvas{
   left: 50%;
   margin: calc(-37.5vh)
 }
+
+
+.samp p{
+  position: absolute;
+  color: #c4ebfe;
+  letter-spacing: 0.1rem;
+  width: 100%;
+  text-align: center;
+  bottom: calc(2vh);
+  margin: 0;
+  font-family: 'anton';
+  padding: 0;
+  font-size: 1.2rem
+}
