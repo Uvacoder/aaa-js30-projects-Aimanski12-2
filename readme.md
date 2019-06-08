@@ -8,11 +8,23 @@ The projects are listed from the latest. :arrow_up:
 
 
 <details>
-<summary><strong>04. App 4</strong></summary>
+<summary><strong>04. Javascript Circles</strong></summary>
 
 ### Overview :sunglasses:
 
-Comming Soon
+This is an application that generates multiple random circles in the browser. It is using javascript canvass to create 2d circles and increase its size as in a fraction of time. 
+
+[View it live from your browser](https://aimanski-js04-circles.herokuapp.com/) <br>
+[Watch Short Video Clip](https://www.youtube.com/watch?v=03MPwtkB0fY) <br>
+[View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj04)
+
+
+<div float="left">
+  <a href="https://www.youtube.com/watch?v=03MPwtkB0fY">
+    <img src="https://user-images.githubusercontent.com/32781697/59149326-bccd7200-89d9-11e9-81ea-e8dfa153037b.gif" alt="screen shot">
+  </a>
+</div>
+
 
 </details>
 
