@@ -11,18 +11,18 @@ The projects are listed from the latest. :arrow_up:
 
 ### Overview :sunglasses:
 
-This is an application that generates multiple random circles in the browser. It is using javascript canvass to create 2d circles and increase its size as in a fraction of time. 
+Pairing Game is one the most common programming exercises and so I decided to create one. I had so much fun building this application and I learned a lot from it. 
 
-[View it live from your browser](https://aimanski-js04-circles.herokuapp.com/) <br>
-[Watch Short Video Clip](https://www.youtube.com/watch?v=03MPwtkB0fY) <br>
-[View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj04)
+[View it live from your browser](https://aimanski-js05-pairgame.firebaseapp.com/). Deployed with Firebase through ReactJS<br>
+[Watch Short Video Clip](https://www.youtube.com/watch?v=xg9Lok5UCZA) on YouTube<br>
+[View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj05).
 
 
 <div float="left">
-  <a href="https://www.youtube.com/watch?v=03MPwtkB0fY">
-    <img src="https://user-images.githubusercontent.com/32781697/59149326-bccd7200-89d9-11e9-81ea-e8dfa153037b.gif" alt="screen shot">
+  <a href="https://www.youtube.com/watch?v=xg9Lok5UCZA">
+    <img src="https://user-images.githubusercontent.com/32781697/59236072-2c01bc80-8bba-11e9-82f3-eb2a101ca2ea.gif" alt="screen shot">
   </a>
-</div>
+</div>>
 
 
 </details>
