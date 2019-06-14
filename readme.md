@@ -22,7 +22,7 @@ Pairing Game is one the most common programming exercises and so I decided to cr
   <a href="https://www.youtube.com/watch?v=xg9Lok5UCZA">
     <img src="https://user-images.githubusercontent.com/32781697/59236072-2c01bc80-8bba-11e9-82f3-eb2a101ca2ea.gif" alt="screen shot">
   </a>
-</div>>
+</div>
 
 
 </details>
