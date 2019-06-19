@@ -7,6 +7,15 @@ Welcome to my Javascript Projects. This repo houses my javascript projects. Some
 The projects are listed from the latest. :arrow_up:
 
 <details>
+<summary><strong>06. Whack-A-Mole</strong></summary>
+
+### :sunglasses: Coming Soon
+
+</details>
+
+
+
+<details>
 <summary><strong>05. Pairing Game</strong></summary>
 
 ### Overview :sunglasses:
