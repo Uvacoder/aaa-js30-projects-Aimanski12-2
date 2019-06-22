@@ -1,21 +1,20 @@
-## Kill the Dragon
+## Pairing Game
 
-> This is a game app that has the same principles of Whack-A-Mole. In this app, I have added more characters and replace the Mole character to a dragon. I have also added audio effects and some css animations.
+Pairing Game is one the most common programming exercises and so I decided to create one. I had so much fun building this application and I learned a lot from it. 
 
 [View it live from your browser](https://aimanski-js05-pairgame.firebaseapp.com/) Deployed with Firebase through ReactJS<br>
-[Watch Short Video Clip](https://youtu.be/GmZhFm44Nsk) <br>
+[Watch Short Video Clip](https://www.youtube.com/watch?v=xg9Lok5UCZA) <br>
 
 <div float="left">
-  <a href="https://youtu.be/GmZhFm44Nsk">
+  <a href="https://www.youtube.com/watch?v=xg9Lok5UCZA">
     <img src="https://user-images.githubusercontent.com/32781697/59236072-2c01bc80-8bba-11e9-82f3-eb2a101ca2ea.gif" alt="screen shot">
   </a>
 </div>
 
 > Thing I learned in this project;
-  * 
-  * How to create basic JS timers using `setTimeout()` and `clearTimeout()`.
-  * How to create HTMLMediaElements with `<audio>` and integrate audio in the application. 
   * How to add animation in the elements when event is triggered. 
+  * How to create basic JS timers using `setInterval()` and `clearIntervals()`.
+  * How to create HTMLMediaElements with `audio` and integrate audio in the application. 
   * How to add and remove css classes when an event is triggered.
 
 > References:
@@ -27,7 +26,7 @@
 Download the repo with:
 
 ```bash
-$ git clone https://github.com/Aimanski12/Javascript_Projects/tree/proj06 proj-name
+$ git clone https://github.com/Aimanski12/Javascript_Projects/tree/proj05 proj-name
 ```
 
 After downloading the repo you can cd into the proj-name and then run the application with the live-server. All the assets are already included so you can run the application and it will work. 

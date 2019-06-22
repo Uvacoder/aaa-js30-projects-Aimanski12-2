@@ -1,133 +1,176 @@
-// audio
-const sword1 = document.querySelector('audio[data-key="sword1"]');
-const sword2 = document.querySelector('audio[data-key="sword2"]');
-const sword3 = document.querySelector('audio[data-key="sword3"]');
-const background = document.querySelector('audio[data-key="background"]');
+const fruits = ['carrot', 'cherry', 'apple', 'pineapple', 'pumpkin', 'strawberry']
+const box = document.querySelector('.box')
+const mes = document.querySelector('.mes')
+const score = document.querySelector('.sc')
+const second = document.querySelector('.second')
+const sec = document.querySelector('audio[data-key="seconds"]')
+const select = document.querySelector('audio[data-key="select"]')
+const wrong = document.querySelector('audio[data-key="wrong"]')
+const correct = document.querySelector('audio[data-key="correct"]')
+const yay = document.querySelector('audio[data-key="yay"]')
+const lose = document.querySelector('audio[data-key="lose"]')
+let tim;
+let timer;
 
-// target backgrounds
-const target = ['dragon', 'gold', 'lumber'];
+fruits.push(...fruits)
 
-const body = document.querySelector('.body');
-const mes = document.querySelector('.mes');
-const err = document.querySelector('.errors');
-const score = document.querySelector('.scores');
-let audio = true;
-let counter = 21;
-let miss = 0;
-let hit = 0;
-let lastBox, randomNum;
-
-// initiate the function when the document load
-window.onload = init
-
-function init(){
-  for (let x = 0; x < 9; x++) {
-    body.innerHTML += `
-      <div class='box'>
-         <div class='inside'></div>
-      </div>`
+function shuffle(arr) {
+  var val1 = arr.length, temp, index;
+  while (val1 > 0) {
+    index = Math.floor(Math.random() * val1);
+    val1--;
+    temp = arr[val1];
+    arr[val1] = arr[index];
+    arr[index] = temp;
   }
-  mes.innerHTML = `<h5 class='message'>Start</h5>`
-  mes.addEventListener('click', start)
+  return arr;
 }
 
-// starts the game
-function start(){
-  mes.removeEventListener('click', start)
-  showImage()
-  timeCounter()
-  counter === 0 ? background.stop() : background.play()
-  sword3.play()
-  for (let x = 0; x < body.childElementCount; x++) {
-    body.children[x].addEventListener('click', evalBox)
-  }
-}
+window.onload = init;
 
-// evaluate if the box has the specified class to generate point or miss
-function evalBox(){
-  audio = !audio
-  if (this.firstElementChild.classList.contains('dragon')){
-    sword3.play()
-    score.innerHTML = ++hit
-    const scoreboard =document.querySelector('.scores')
-    scoreboard.classList.add('scoreAnim')
-    removeClass(scoreboard, 'scoreAnim')
-    this.firstElementChild.classList.remove('dragon')
-  } else {
-    audio ? sword1.play() : sword2.play()
-    const errorBoard = document.querySelector('.errors')
-    errorBoard.classList.add('scoreAnim')
-    removeClass(errorBoard, 'scoreAnim')
-    err.innerHTML = ++miss
-  }
-}
-
-// remove class after 300 milisec
-function removeClass(element, classname){
-  setTimeout(()=>{
-    element.classList.remove(classname)
-  }, 300)
-}
-
-// show image from a random box
-function showImage(){
-  const time = randomTime(200, 1000)
-  const samp = randomBox()
-  const randImage = Math.floor(Math.random() * 3)
-  body.children[samp].firstElementChild.classList.add('target')
-  if(randImage == 0){
-    body.children[samp].firstElementChild.style.background = `url('../libs/img/${target[randImage]}.png') center no-repeat`
-    body.children[samp].firstElementChild.classList.add('dragon')
-  }
-  body.children[samp].firstElementChild.style.background = `url('../libs/img/${target[randImage]}.png') center no-repeat`
-
-  // create a random timed loop
-  setTimeout(()=> {
-    body.children[samp].firstElementChild.classList.remove('target', 'dragon')
-    if(counter == 0){
-      clearTimeout()
-    } else {
-      showImage()
-    }
-  }, 1000)
-}
-
-// random box selector
-function randomBox(){
-  const randBox = Math.floor(Math.random() * 9)
-  if(randBox == lastBox)randomBox()
-  lastBox = randBox;
-  return lastBox
-}
-
-// random number selector
-function randomTime(min, max){
-  return Math.floor(Math.random() * (max-min) + min)
-}
-
-// timeCounter
-function timeCounter(){
-  setTimeout(() => {
-    --counter
-    mes.innerHTML = `
-      <h5>Time left:</h5>
-      <p class='timeCounter'>${counter}</p>
+function init() {
+  var divs = (shuffle(fruits))
+  for (var x = 0; x < divs.length; x++) {
+    box.innerHTML += `
+      <div class='placer ${x}'>
+        <div class='holder ${divs[x]}'>
+          <div class='front'></div>
+          <img  class='back' src='libs/img/${divs[x]}.png'>
+        </div>
+      </div>
     `
-    if (counter == 0) {
-      for (let x = 0; x < body.childElementCount; x++) {
-        body.children[x].removeEventListener('click', evalBox)
-      }
-      mes.innerHTML = "<h5 class='message'>Game Over!</h5>";
-      mes.addEventListener('click', reset)
-
-      clearTimeout()
-    } else {
-      timeCounter()
-    }
-  }, 1000)
+  }
+  showBox();
 }
 
-// resets the app back to initial state
-function reset(){
+function showBox() {
+  mes.addEventListener('click', ready)
+}
+
+function ready() {
+  var a = box.children;
+  this.innerHTML = 'Ready!'
+  tim = new Date().getTime() + 30000
+  timer = setInterval(setDate, 1000)
+  for (var x = 0; x < a.length; x++) {
+    a[x].addEventListener('click', click);
+  }
+}
+
+
+function click() {
+  var b = this.firstElementChild;
+  b.classList.add('flip');
+  evaluator(this);
+}
+
+var selectedBox = [];
+function evaluator(a) {
+  select.play()
+
+  if (a.classList[1] === undefined) {
+    return
+  }
+
+  selectedBox.push(a);
+
+  if (selectedBox.length === 1) {
+    mes.innerHTML = "Be sure!";
+  }
+
+  if (selectedBox.length === 2) {
+    if (selectedBox[0].firstElementChild.classList[1] == selectedBox[1].firstElementChild.classList[1]) {
+      removePic(selectedBox)
+      selectedBox = [];
+    } else {
+      hidePic(selectedBox);
+      selectedBox = [];
+    }
+  }
+}
+
+var scoreCard = 1;
+function scoreBoard() {
+  score.innerHTML = scoreCard++;
+  score.classList.add('addSc')
+  if (scoreCard === 7) {
+    endGame()
+  }
+  removeCss(score, 'addSc')
+}
+
+function endGame() {
+  setTimeout(function () {
+    mes.innerHTML = `
+      <div>You win!</div>
+      <div>Start again.</div>
+    `
+    clearInterval(timer)
+    var a = box.children
+    for (var x = 0; x < a.length; x++) {
+      a[x].removeEventListener('click', click);
+    }
+    mes.addEventListener('click', reset)
+    yay.play()
+  }, 700)
+}
+
+function reset() {
   window.location.reload(true)
 }
+
+function removeCss(element, cssName) {
+  setTimeout(function () {
+
+    element.classList.remove(cssName)
+  }, 700)
+}
+
+
+function removePic(a) {
+  a[0].classList.remove(a[0].classList[1])
+  a[1].classList.remove(a[1].classList[1])
+  setTimeout(function () {
+    correct.play()
+    mes.innerHTML = 'Great Job!';
+    scoreBoard();
+  }, 700)
+}
+
+function hidePic(a) {
+  setTimeout(function () {
+    for (var x = 0; x < 2; x++) {
+      a[x].firstElementChild.classList.remove('flip')
+    }
+    mes.innerHTML = "Wrong!";
+    wrong.play()
+  }, 700)
+}
+
+
+
+
+function setDate() {
+  var newTime = new Date().getTime()
+  var remainingTime = tim - newTime
+  var remTime = Math.ceil(remainingTime / 1000)
+  second.innerHTML = remTime
+  second.classList.add('timeStyle')
+  mes.removeEventListener('click', ready)
+  sec.play()
+  if (remTime === 0) {
+    mes.innerHTML = `
+      <div>You lose!</div>
+      <div>Play again.</div>
+    `
+    clearInterval(timer)
+    var a = box.children
+    for (var x = 0; x < a.length; x++) {
+      a[x].removeEventListener('click', click);
+    }
+    lose.play()
+    mes.addEventListener('click', reset)
+  }
+  removeCss(second, 'timeStyle')
+}
+

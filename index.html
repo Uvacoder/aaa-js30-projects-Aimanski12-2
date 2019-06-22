@@ -1,44 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <link href="https://fonts.googleapis.com/css?family=Swanky+and+Moo+Moo&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/cursor.css">
-  <link rel="stylesheet" href="/css/style.css">
+  <title>Pairing Game</title>
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
-
 <body>
- 
-  <div class="cursor"></div>
-  <div class="main">
-      <div class="top">
-        <div class="score">
-          <h5>Score</h5>
-          <p class='scores'>0</p>
-        </div>        
-        <div class="mes">
-          <!-- message and counter -->
-        </div>
-        <div class="error">
-          <h5>Missed</h5>
-          <p class='errors'>0</p>
-        </div>
+  <div class='main'>
+    <div class='top'>
+      <div class='board score'>
+        <h5>Score</h5>
+        <p class='sc'>0</p>
       </div>
-      <div class="body">
-        <!-- box element for images will be inserted here -->
+      <div class='mes'>Start</div>
+      <div class='board time'>
+        <h5>Seconds</h5>
+        <p class='second'>30</p>
       </div>
+    </div>
+    <div class='bottom'>
+      <div class='box'></div>
+    </div>
   </div>
-
-  <!-- audio for effects -->
-  <audio data-key='sword1' src="./libs/audio/sword1.mp3"></audio>
-  <audio data-key='sword2' src="./libs/audio/sword2.mp3"></audio>
-  <audio data-key='sword3' src="./libs/audio/sword3.mp3"></audio>
-  <audio data-key='background' src="./libs/audio/background.mp3"></audio>
+  <audio data-key='select' src='libs/sounds/bounce.mp3'></audio>
+  <audio data-key='wrong' src='libs/sounds/wrong.mp3'></audio>
+  <audio data-key='correct' src='libs/sounds/correct.mp3'></audio>
+  <audio data-key='seconds' src='libs/sounds/seconds.mp3'></audio>
+  <audio data-key='yay' src='libs/sounds/yay.mp3'></audio>
+  <audio data-key='lose' src='libs/sounds/lose.mp3'></audio>
 </body>
 <script src='./js/script.js'></script>
-<script src='./js/cursor.js'></script>
+
 </html>
