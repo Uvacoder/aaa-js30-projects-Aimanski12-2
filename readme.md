@@ -1,6 +1,6 @@
 ## Pairing Game
 
-Pairing Game is one the most common programming exercises and so I decided to create one. I had so much fun building this application and I learned a lot from it. 
+Pairing Game is one the most common programming exercises and so I decided to create one. In this app, I have integrated some audio effects to make this app a little interesting. I had so much fun building this application and I learned a lot from it. 
 
 [View it live from your browser](https://aimanski-js05-pairgame.firebaseapp.com/) Deployed with Firebase through ReactJS<br>
 [Watch Short Video Clip](https://www.youtube.com/watch?v=xg9Lok5UCZA) <br>
