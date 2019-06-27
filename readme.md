@@ -11,7 +11,17 @@ The projects are listed from the latest. :arrow_up:
   
   ### OverView :sunglasses:
 
-  Coming Soon!
+  This is an app that is inspired by Jet Fighter arcade game. I created this app for this project because I was inspired by the animations and audio effects.
+
+  [View it live from your browser](https://aimanski-js05-jetfigther.firebaseapp.com/) Deployed with Firebase through ReactJS<br>
+  [Watch Short Video Clip](https://youtu.be/8WTpfiNCJC4) on Youtube.<br>
+  [View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj07).
+
+  <div float="left">
+    <a href="https://youtu.be/8WTpfiNCJC4">
+      <img src="https://user-images.githubusercontent.com/32781697/60228296-d8e56600-9857-11e9-9a91-6646c667c6d0.gif" alt="screen shot">
+    </a>
+  </div>
   
 </details>
 
@@ -62,7 +72,7 @@ The projects are listed from the latest. :arrow_up:
   This is an application that generates multiple random circles in the browser. It is using javascript canvass to create 2d circles and increase its size as in a fraction of time. 
 
   [View it live from your browser](https://aimanski-js04-circles.herokuapp.com/) <br>
-  [Watch Short Video Clip](https://www.youtube.com/watch?v=03MPwtkB0fY) <br>
+  [Watch Short Video Clip](https://www.youtube.com/watch?v=03MPwtkB0fY) on Youtube <br>
   [View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj04)
 
   <div float="left">
