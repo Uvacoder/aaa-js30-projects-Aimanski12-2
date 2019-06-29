@@ -6,6 +6,19 @@ Welcome to my Javascript Projects. This repo houses my javascript projects. Some
 
 The projects are listed from the latest. :arrow_up:
 
+
+<details>
+  <summary><strong>08. Canvas Paint<strong></summary>
+  
+  ### OverView :sunglasses:
+
+  Coming Soon!
+
+  
+</details>
+
+
+
 <details>
   <summary><strong>07. Jet Fighter Arcade<strong></summary>
   
