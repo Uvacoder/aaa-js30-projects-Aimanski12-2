@@ -7,7 +7,7 @@
 
 <div float="left">
   <a href="https://youtu.be/JBiNqM2tNtU">
-    <img src="https://firebasestorage.googleapis.com/v0/b/rn-places-app.appspot.com/o/places%2Fscreen.gif?alt=media&token=77160460-1b7b-46cc-a455-6218e80098a0" alt="screen shot">
+    <img src="https://github.com/Aimanski12/Javascript_Projects/blob/proj08/libs/background.jpg" alt="screen shot">
   </a>
 </div>
 
