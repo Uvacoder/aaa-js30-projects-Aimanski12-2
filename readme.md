@@ -12,8 +12,17 @@ The projects are listed from the latest. :arrow_up:
   
   ### OverView :sunglasses:
 
-  Coming Soon!
+  This is an app that is inspired by Jet Fighter arcade game. I created this app for this project because I was inspired by the animations and audio effects.
 
+  [View it live from your browser](https://aimanski-js08-canvaspainting.firebaseapp.com/) Deployed with Firebase through ReactJS<br>
+  [Watch Short Video Clip](https://youtu.be/JBiNqM2tNtU) <br>
+  [View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj08).
+
+<div float="left">
+  <a href="https://youtu.be/JBiNqM2tNtU">
+    <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-08.gif" alt="screen shot">
+  </a>
+</div>
   
 </details>
 
