@@ -7,7 +7,7 @@
 
 <div float="left">
   <a href="https://youtu.be/JBiNqM2tNtU">
-    <img src="https://github.com/Aimanski12/Javascript_Projects/blob/proj08/libs/background.jpg" alt="screen shot">
+    <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/screen.gif" alt="screen shot">
   </a>
 </div>
 
