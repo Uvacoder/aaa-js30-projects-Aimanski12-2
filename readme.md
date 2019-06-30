@@ -12,7 +12,7 @@ The projects are listed from the latest. :arrow_up:
   
   ### OverView :sunglasses:
 
-  This is an app that is inspired by Jet Fighter arcade game. I created this app for this project because I was inspired by the animations and audio effects.
+  HTML Canvas is one of the most fascinating things that like to play with. So I created this canvas project that allows the user to create images using mouse as their brush. I enjoyed creating this project and I learned a lot from it. 
 
   [View it live from your browser](https://aimanski-js08-canvaspainting.firebaseapp.com/) Deployed with Firebase through ReactJS<br>
   [Watch Short Video Clip](https://youtu.be/JBiNqM2tNtU) <br>
