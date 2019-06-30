@@ -69,6 +69,7 @@ The projects are listed from the latest. :arrow_up:
 
 <details>
   <summary><strong>05. Pairing Game</strong></summary>
+  
   ### Overview :sunglasses:
 
   Pairing Game is one the most common programming exercises and so I decided to create one. In this app, I have integrated some audio effects to make this app a little interesting. I had so much fun building this application and I learned a lot from it.
