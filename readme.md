@@ -1,6 +1,6 @@
 ## Javascript Projects
 
-Welcome to my Javascript Projects. This repo houses my javascript projects. Some items in this project are inspired by WesBos' [Javascript30](https://javascript30.com/) Project Challenge. Thank you for taking time to check this repo.
+Welcome to my Javascript Projects. This repo houses my javascript projects. Some items in this project are inspired by WesBos' [Javascript30](https://javascript30.com/) Project Challenge. Thank you for taking time to check this repo :sunglasses:.
 
 ## Table of Contents
 
