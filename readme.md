@@ -29,7 +29,7 @@ The projects are listed from the latest. :arrow_up:
 
 
 <details>
-  <summary><strong>07. Jet Fighter Arcade<strong></summary>
+  <summary><strong>07. Jet Fighter Arcade Game<strong></summary>
   
   ### OverView :sunglasses:
 
