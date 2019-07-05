@@ -7,11 +7,11 @@
 
 <div float="left">
   <a href="https://youtu.be/JBiNqM2tNtU">
-    <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-08.gif" alt="screen shot">
+    <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-08-canvas.gif" alt="screen shot">
   </a>
 </div>
 
-> Thing I learned in this project;
+> Things I learned in this project;
   * How to interact with the `canvass` element and create lines and polygons with multi colors.
   * How to set canvas sizes using the browser size. 
   * How to save the canvas into a png media file format.
