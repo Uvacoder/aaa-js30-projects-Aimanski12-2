@@ -20,7 +20,7 @@ The projects are listed from the latest. :arrow_up:
 
 <div float="left">
   <a href="https://youtu.be/JBiNqM2tNtU">
-    <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-08.gif" alt="screen shot">
+    <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-08-canvas.gif" alt="screen shot">
   </a>
 </div>
   
