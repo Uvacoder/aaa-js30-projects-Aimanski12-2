@@ -6,6 +6,24 @@ Welcome to my Javascript Projects. This repo houses my javascript projects. Some
 
 The projects are listed from the latest. :arrow_up:
 
+<details>
+  <summary><strong>09. Nokia Snake Game<strong></summary>
+  
+  ### OverView :sunglasses:
+
+  I build this snake game app that is inspired by the famous Nokia cellphone game. 
+
+  [View it live from your browser.](https://aimanski-js09-snake.firebaseapp.com/) Deployed with Firebase through ReactJS<br>
+  [Watch Short Video Clip](https://youtu.be/CuBiikmc_vI) <br>
+  [View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj09).
+
+  <div float="left">
+    <a href="https://youtu.be/CuBiikmc_vI">
+      <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-09-snake.gif" alt="screen shot">
+    </a>
+  </div>
+</details>
+
 
 <details>
   <summary><strong>08. Canvas Paint<strong></summary>
@@ -18,12 +36,11 @@ The projects are listed from the latest. :arrow_up:
   [Watch Short Video Clip](https://youtu.be/JBiNqM2tNtU) <br>
   [View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj08).
 
-<div float="left">
-  <a href="https://youtu.be/JBiNqM2tNtU">
-    <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-08-canvas.gif" alt="screen shot">
-  </a>
-</div>
-  
+  <div float="left">
+    <a href="https://youtu.be/JBiNqM2tNtU">
+      <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-08-canvas.gif" alt="screen shot">
+    </a>
+  </div>
 </details>
 
 
