@@ -2,7 +2,7 @@
 
 > This is a game app that has the same principles of Whack-A-Mole. In this app, I have added more characters and replace the Mole character to a dragon. I have also added audio effects and some css animations.
 
-[View it live from your browser](https://aimanski-js05-pairgame.firebaseapp.com/) Deployed with Firebase through ReactJS<br>
+[View it live from your browser](https://aimanski-js06-killthedragon.firebaseapp.com/) Deployed with Firebase through ReactJS<br>
 [Watch Short Video Clip](https://youtu.be/GmZhFm44Nsk) <br>
 
 <div float="left">
