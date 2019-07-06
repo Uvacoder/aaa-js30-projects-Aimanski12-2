@@ -172,7 +172,7 @@ The projects are listed from the latest. :arrow_up:
 
   [View it live from your browser](https://aimanski-js01-musickeyboard.herokuapp.com/) <br>
   [Watch Short Video Clip](https://www.youtube.com/watch?v=4dpbqbb1AWQ&feature=youtu.be). <br>
-  [View project source code](https://github.com/Aimanski12/Javascript_Projects).
+  [View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj01).
 
   <div float="left">
     <a href="https://www.youtube.com/watch?v=4dpbqbb1AWQ&feature=youtu.be">
