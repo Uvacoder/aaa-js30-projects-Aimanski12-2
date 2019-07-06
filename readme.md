@@ -52,7 +52,7 @@ The projects are listed from the latest. :arrow_up:
 
   This is an app that is inspired by Jet Fighter arcade game. I created this app for this project because I was inspired by the animations and audio effects.
 
-  [View it live from your browser](https://aimanski-js05-jetfigther.firebaseapp.com/) Deployed with Firebase through ReactJS<br>
+  [View it live from your browser](https://aimanski-js07-jetfighter.firebaseapp.com/) Deployed with Firebase through ReactJS<br>
   [Watch Short Video Clip](https://youtu.be/8WTpfiNCJC4) on Youtube.<br>
   [View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj07).
 
