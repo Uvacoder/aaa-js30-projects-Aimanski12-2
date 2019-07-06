@@ -2,6 +2,17 @@
   padding: 0;
   margin: 0;
   overflow: hidden;
-  cursor: none;
+  /* cursor: none; */
   background: url("/libs/img/background.png");
+}
+
+h3 {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-family: 'gochi hand';
+  color: #054203;
+  margin-top: 1em;
+  font-size: 2.5em;
+  background: transparent;
 }

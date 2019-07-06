@@ -30,11 +30,20 @@ let powerAudio = new Audio()
 powerAudio.src = './libs/audio/powerup.mp3'
 powerAudio.playbackRate = 2
 
+let startBtn;
+let body;
 
+window.onload = function(){
+  startBtn = document.querySelector('.h3')
+  startBtn.addEventListener('click', start)
+}
 
 // initiate app when load
-window.onload = function(){
-
+const start = function(btn){
+body = document.querySelector('body')
+body.style.cursor = 'none'
+startBtn.parentNode.removeChild(startBtn)
+  
 let getCanvass = document.querySelector("canvas");
 let canvas = document.querySelector("canvas");
 getCanvass.width = innerWidth;
@@ -292,14 +301,14 @@ function animate(){
   // check if the healt is still more than 0
   if(health == 0){
     // reset the application
-    reset()
-    d.fillText("Game Over !", a.width/2-70, 85);
+    this_canvass.fillText("Game Over !", a.width/2-70, 85);
     clearInterval(enemyStart)
     clearInterval(healthStart)
     clearInterval(fireStart)
     background.pause()
     boom.pause()
     shot.pause()
+    reset()
   } else {
 
 
