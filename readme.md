@@ -7,6 +7,14 @@ Welcome to my Javascript Projects. This repo houses my javascript projects. Some
 The projects are listed from the latest. :arrow_up:
 
 <details>
+  <summary><strong>10. Pamodore<strong></summary>
+  
+  ### OverView :sunglasses:
+
+  Coming Soon
+</details>
+
+<details>
   <summary><strong>09. Nokia Snake Game<strong></summary>
   
   ### OverView :sunglasses:
