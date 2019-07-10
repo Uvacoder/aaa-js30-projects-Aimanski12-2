@@ -7,7 +7,7 @@ Welcome to my Javascript Projects. This repo houses my javascript projects. Some
 The projects are listed from the latest. :arrow_up:
 
 <details>
-  <summary><strong>10. Pamodore<strong></summary>
+  <summary><strong>10. Pamodore Timer<strong></summary>
   
   ### OverView :sunglasses:
 
