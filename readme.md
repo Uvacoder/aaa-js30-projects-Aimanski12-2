@@ -13,7 +13,15 @@ The projects are listed from the latest. :arrow_up:
 
   Pamodoro timer is one of the examples to exercise your javascript skills. So, for this challenge I build one that contains audio effects, start pause and stop button, functionality and audio controls. 
 
-  Coming Soon
+  [View it live from your browser.](https://aimanski-js09-nokiasnakegame.firebaseapp.com) Deployed with Firebase through ReactJS<br>
+  [Watch Short Video Clip](https://youtu.be/2c8JvX4ie4Y) <br>
+  [View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj09).
+
+  <div float="left">
+    <a href="https://youtu.be/CuBiikmc_vI">
+      <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-09-snake.gif" alt="screen shot">
+    </a>
+  </div>
 </details>
 
 <details>
