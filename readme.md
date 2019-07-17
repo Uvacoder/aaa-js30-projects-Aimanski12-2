@@ -17,11 +17,7 @@ The projects are listed from the latest. :arrow_up:
   [Watch Short Video Clip](https://youtu.be/2c8JvX4ie4Y) <br>
   [View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj09).
 
-  <div float="left">
-    <a href="https://youtu.be/CuBiikmc_vI">
-      <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-09-snake.gif" alt="screen shot">
-    </a>
-  </div>
+  
 </details>
 
 <details>
