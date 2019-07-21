@@ -1,0 +1,82 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Aiman Adlawan">
+    <meta name="description" content="Pamodoro project created by Aiman Adlawan">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Pamodoro Project">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <title>Aimanski Pamodoro Timer</title>
+  </head>
+  <body>
+    <div class='main'>
+
+      <!-- header area -->
+      <div class='top'>Pamodoro Timer</div>      
+
+      <!-- body area -->
+      <div class='body'>
+        <!-- clock area -->
+        <div class='clock'>
+          <div class='inner'>
+            <div class='outer'>
+              <div class='title'>
+                <i class="fa fa-minus-circle minus"></i>
+                <span class='sessionName'>training session</span>
+                <i class="fa fa-plus-circle add"></i>
+              </div>
+              <div class='timer'>25:00</div>
+              <div class='btnAdd'>
+                <i class="fa fa-play fa-3x play"></i>
+                <i class="fa fa-pause fa-3x pause"></i>
+                <i class="fa fa-stop fa-3x stop"></i>
+              </div>
+            </div>
+          </div>
+          <div class='audio'> 
+            
+            <i class="fa fa-volume-off fa-2x"></i>
+          </div>
+        </div>
+        <!-- clock area ends -->
+
+        <!-- button area -->
+        <div class=btnBreak>
+          <div>Breaktime</div>
+          <div class='breakMin'>
+            <div>
+              <i class="fa fa-minus-circle minusBrk"></i>
+            </div>
+            <div class='sample'>
+              <i class='break'>5 min</i>
+            </div>
+            <div>
+              <i class="fa fa-plus-circle addBrk"></i>
+            </div>
+          </div>
+        </div>
+        <!-- button area ends -->
+      </div>
+      <!-- body ends -->
+
+    </div>
+    <audio data-key='tik' src="libs/tik.mp3"></audio>
+    <audio data-key='go' src="libs/go.mp3"></audio>
+    <audio data-key='finish' src="libs/finish.mp3"></audio>
+  </body>
+  <script src='/js/variables.js'></script>
+  <script src='/js/eventListeners.js'></script>
+  <script src='/js/func.js'></script>
+  </html>
+  
+
+
+
+
+
+  
