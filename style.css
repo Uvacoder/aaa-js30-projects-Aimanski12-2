@@ -1,0 +1,31 @@
+body {
+  background: #a3a3a3;
+  font-family: 'josefin sans'
+}
+
+.container{
+  width: 900px;
+  height: 150px;
+  margin: 0 auto;
+  margin-top: 100px
+}
+
+h1{
+  text-align: center;
+}
+a{
+  text-decoration: none
+}
+p {
+  font-size: 1.5em;
+  text-align: justify
+}
+
+b, i {
+  color: #003eff
+}
+
+canvas {
+  border: 5px solid rgb(55, 44, 40);
+  border-radius: 10px
+}
