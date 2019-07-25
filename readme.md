@@ -7,11 +7,23 @@ Welcome to my Javascript Projects. This repo houses my javascript projects. Some
 The projects are listed from the latest. :arrow_up:
 
 <details>
-  <summary><strong>11. Seven Segment Number<strong></summary>
+  <summary><strong>11. Seven Segment Display<strong></summary>
   
   ### OverView :sunglasses:
 
-  > Coming Soon!
+> Seven Segment Display or SSD is a common display design for electronic devices. I build one like this to understand its core concepts and visualization structure and why it is called seven segment. I enjoyed and learned a lot in building this project. 
+
+[View it live from your browser.](https://aimanski-js11-sevensegdisplay.firebaseapp.com/) Deployed with Firebase through ReactJS<br>
+[Watch Short Video Clip](https://youtu.be/TyO07BxubSg) <br>
+[View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj11).
+
+
+<div float="left">
+  <a href="https://youtu.be/TyO07BxubSg">
+    <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-js11-sevensegment.gif" alt="screen shot">
+  </a>
+</div>
+
 </details>
 
 
