@@ -11,7 +11,18 @@ The projects are listed from the latest. :arrow_up:
   
   ### OverView :sunglasses:
 
-Coming Soon!
+> Making draggable element in JS are one of the most interesting features that I always love to put my hands on. So I tried to build one TodoList to enhance my skills. I learned so many Javascript functions ans HTML elements when I build this app. 
+
+[View it live from your browser.](http://bit.ly/aiman-js12-dragndrop) Deployed with Firebase through ReactJS<br>
+[Watch Short Video Clip](https://youtu.be/TyO07BxubSg) <br>
+[View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj11).
+
+
+<div float="left">
+  <a href="https://youtu.be/TyO07BxubSg">
+    <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-js11-sevensegment.gif" alt="screen shot">
+  </a>
+</div>
 
 </details>
 
@@ -22,7 +33,7 @@ Coming Soon!
 
 > Seven Segment Display or SSD is a common display design for electronic devices. I build one like this to understand its core concepts and visualization structure and why it is called seven segment. I enjoyed and learned a lot in building this project. 
 
-[View it live from your browser.](https://aimanski-js11-sevensegdisplay.firebaseapp.com/) Deployed with Firebase through ReactJS<br>
+[View it live from your browser.](http://bit.ly/aiman-js11-sevensegment) Deployed with Firebase through ReactJS<br>
 [Watch Short Video Clip](https://youtu.be/TyO07BxubSg) <br>
 [View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj11).
 
@@ -43,7 +54,7 @@ Coming Soon!
 
   > Pamodoro timer is one of the examples to exercise your javascript skills. So, for this challenge I build one that contains audio effects, start pause and stop button, functionality and audio controls.
 
-  [View it live from your browser.](https://aimanski-js10-pamodoro.firebaseapp.com/) Deployed with Firebase through ReactJS<br>
+  [View it live from your browser.](http://bit.ly/aiman-js10-pamodoro) Deployed with Firebase through ReactJS<br>
   [Watch Short Video Clip](https://youtu.be/iDkn6D-JbJo) <br>
   [View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj10).
 
@@ -61,7 +72,7 @@ Coming Soon!
 
   I build this snake game app that is inspired by the famous Nokia cellphone game. 
 
-  [View it live from your browser.](https://aimanski-js09-nokiasnakegame.firebaseapp.com) Deployed with Firebase through ReactJS<br>
+  [View it live from your browser.](http://bit.ly/aiman-js09-snakegame) Deployed with Firebase through ReactJS<br>
   [Watch Short Video Clip](https://youtu.be/CuBiikmc_vI) <br>
   [View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj09).
 
@@ -80,7 +91,7 @@ Coming Soon!
 
   HTML Canvas is one of the most fascinating things that like to play with. So I created this canvas project that allows the user to create images using mouse as their brush. I enjoyed creating this project and I learned a lot from it. 
 
-  [View it live from your browser](https://aimanski-js08-canvas.firebaseapp.com/) Deployed with Firebase through ReactJS<br>
+  [View it live from your browser](http://bit.ly/aiman-js08-canvas) Deployed with Firebase through ReactJS<br>
   [Watch Short Video Clip](https://youtu.be/JBiNqM2tNtU) <br>
   [View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj08).
 
@@ -100,7 +111,7 @@ Coming Soon!
 
   This is an app that is inspired by Jet Fighter arcade game. I created this app for this project because I was inspired by the animations and audio effects.
 
-  [View it live from your browser](https://aimanski-js07-jetfighter.firebaseapp.com/) Deployed with Firebase through ReactJS<br>
+  [View it live from your browser](http://bit.ly/aiman-js07-jetfighter) Deployed with Firebase through ReactJS<br>
   [Watch Short Video Clip](https://youtu.be/8WTpfiNCJC4) on Youtube.<br>
   [View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj07).
 
@@ -120,7 +131,7 @@ Coming Soon!
 
   This is a game app that has the same principles of Whack-A-Mole. In this app, I have added more characters and replace the Mole character to a dragon. I have also added audio effects and some css animations.
 
-  [View it live from your browser](https://aimanski-js06-killthedragon.firebaseapp.com/). Deployed with Firebase through ReactJS<br>
+  [View it live from your browser](http://bit.ly/aiman-js06-killthedragon). Deployed with Firebase through ReactJS<br>
   [Watch Short Video Clip](https://youtu.be/GmZhFm44Nsk) on YouTube<br>
   [View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj06).
 
@@ -139,7 +150,7 @@ Coming Soon!
 
   Pairing Game is one the most common programming exercises and so I decided to create one. In this app, I have integrated some audio effects to make this app a little interesting. I had so much fun building this application and I learned a lot from it.
 
-  [View it live from your browser](https://aimanski-js05-pairinggameapp.firebaseapp.com/). Deployed with Firebase through ReactJS<br>
+  [View it live from your browser](http://bit.ly/aiman-js05-pairinggame). Deployed with Firebase through ReactJS<br>
   [Watch Short Video Clip](https://www.youtube.com/watch?v=xg9Lok5UCZA) on YouTube<br>
   [View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj05).
 
@@ -159,7 +170,7 @@ Coming Soon!
 
   This is an application that generates multiple random circles in the browser. It is using javascript canvass to create 2d circles and increase its size as in a fraction of time. 
 
-  [View it live from your browser](https://aimanski-js04-circles.herokuapp.com/) <br>
+  [View it live from your browser](http://bit.ly/aiman-js04-circles) <br>
   [Watch Short Video Clip](https://www.youtube.com/watch?v=03MPwtkB0fY) on Youtube <br>
   [View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj04)
 
@@ -179,7 +190,7 @@ Coming Soon!
   This Analog Clock is built from [p5.js](https://p5js.org/) a JS client-side library for creating graphic and interactive experiences for the user. <br>
   You can use this app if you need to run some clock on your desktop.
 
-  [View it live from your browser](https://aimanski-js03-clock.herokuapp.com/) <br>
+  [View it live from your browser](http://bit.ly/aiman-js03-analogclock) <br>
   [Watch Short Video Clip](https://www.youtube.com/watch?v=KEb3TGOjB5Y&feature=youtu.be) <br>
   [View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj03)
 
@@ -199,7 +210,7 @@ Coming Soon!
 
   This is an app that outputs digital and analog clock on your browser. The analog clock is using javascript and css animations.
 
-  [View it live from your browser](https://aimanski-js02-clock.herokuapp.com/) <br>
+  [View it live from your browser](http://bit.ly/aiman-js02-analogclock) <br>
   [Watch Short Video Clip](https://www.youtube.com/watch?v=vOa3j6Z2vrw). <br>
   [View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj02).
 
@@ -218,7 +229,7 @@ Coming Soon!
 
   This project is a simple musical keyboard that plays a sound whenever you press a key that corresponds to the sound. This application allows you to create simple music rythms on the fly. 
 
-  [View it live from your browser](https://aimanski-js01-musickeyboard.herokuapp.com/) <br>
+  [View it live from your browser](http://bit.ly/aiman-js01-keyboard) <br>
   [Watch Short Video Clip](https://www.youtube.com/watch?v=4dpbqbb1AWQ&feature=youtu.be). <br>
   [View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj01).
 
@@ -231,10 +242,10 @@ Coming Soon!
 
 ## Author
 
-[Aimanski12](https://github.com/Aimanski12).
+[Aimanski12](http://bit.ly/aiman-profile-github).
 Thank you very very much for giving this project a :star:
 
 ## License 
 
-Copyright © 2019, [Aimanski12](https://github.com/Aimanski12).
+Copyright © 2019, [Aimanski12](http://bit.ly/aiman-profile-github).
 Released under the [MIT License](LICENSE).
