@@ -14,7 +14,7 @@ The projects are listed from the latest. :arrow_up:
 > Making draggable element in JS are one of the most interesting features that I always love to put my hands on. So I tried to build one TodoList to enhance my skills. I learned so many Javascript functions ans HTML elements when I build this app. 
 
 [View it live from your browser.](http://bit.ly/aiman-js12-dragndrop) Deployed with Firebase through ReactJS<br>
-[Watch Short Video Clip](https://youtu.be/KOctk_GGe4c) <br>
+[Watch Short Video Clip](https://www.youtube.com/watch?v=KOctk_GGe4c&feature=youtu.be) <br>
 [View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj12).
 
 <div float="left">
