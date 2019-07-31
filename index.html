@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Drag and Drop</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header>Drag 'N Drop Todolist</header>
+    <div class="row">
+
+      <!-- row 1 starts -->
+      <div class="col-md-4">
+
+        <!-- input list -->
+        <div class="input-group inputArea">
+          <input type="text" class="form-control listCreated" placeholder="Enter Todos">
+          <div class="input-group-append">
+            <button class="btn btn-secondary add" type="button" >
+              <i class="fa fa-plus"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- draft layout -->
+        <div class='layout draftLayout'>
+          <h5 class='title'>Draft Items</h5>
+            <ul class="list-group draft">
+              <h5>No draft items</h5>
+            </ul>
+        </div>
+
+        <!-- progress layout -->
+        <div class='layout onProgress'>
+          <h5 class='title'>On-progress Items</h5>
+          <ul class="list-group prog">
+            
+          </ul>
+        </div>
+
+      </div>
+      <!-- end of row 1 -->
+
+      <!-- row 2 starts -->
+      <!-- finished layout -->
+      <div class="col-md-4 finishedLayout">
+        <div class='layout layout2 finishedList'>
+          <h5 class='title'>Finished Items</h5>
+          <ul class="list-group fin">
+            
+          </ul>
+        </div>
+      </div>
+      <!-- row 2 ends -->
+
+      <!-- row 3 starts -->
+      <!-- deleted layout -->
+      <div class="col-md-4 deletedLayout">
+        <div class='layout layout2 deletedList'>
+          <h5 class='title'>Deleted Items</h5>
+          <ul class="list-group del">
+            
+          </ul>
+        </div>
+        
+      </div>
+      <!-- row 3 ends -->
+
+    </div>
+  </div>
+</body>
+<script src='/js/script.js'></script>
+</html>

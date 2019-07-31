@@ -1,0 +1,136 @@
+body{
+  font-family: 'noto sans tc';
+  background: url('/img/background.png') no-repeat center fixed
+}
+
+header{
+  text-align: center;
+  font-size: 2em;
+  margin: 1em 0 0.5em 0;
+  font-weight: 700
+}
+
+.title {
+  text-align: center;
+  font-size: 1em;
+  padding-top: 10px;
+  margin: 0;
+  font-weight: 700
+}
+
+.inputArea input{
+  font-size: 0.92em;
+  padding-left: 15px;
+}
+
+.inputArea{
+  box-shadow: 7px 7px 7px gray;
+}
+
+.layout{
+  margin-top: 10px;
+  background: #d5d5d5;
+  border-radius: 3px;
+  box-shadow: 7px 7px 7px gray
+}
+
+.layout ul {
+  padding: 10px;
+  height: 264px;
+  overflow: auto;
+  width: 100%;
+}
+.layout h5 {
+  width: 100%;
+  font-size: 0.9em;
+  text-align: center;
+  margin: 25px 0 0 0;
+  color: gray
+}
+.layout li {
+  line-height: 12px;
+  margin-bottom: 3px;
+  font-size: 0.85em;
+  box-shadow: 1px 1px 1px gray;
+  color: #505968
+}
+
+
+.layout2 {
+  margin-top: 0;
+  height: 645px;
+  background: gray
+}
+
+.draftLayout{
+  background: #b8cbe9;
+  color: #040630
+}
+
+.draftLayout li{
+  color: #505a68
+}
+
+.draftLayout li:hover {
+  color: #505a68
+}
+.onProgress{
+  background: #f5f0e1;
+  color: #302304
+}
+
+.onProgress li{
+  color: #686050
+}
+
+.finishedList{
+  background: #d2f2d2;
+  color: #083004
+}
+
+.finishedList li{
+  color: #526850
+}
+
+.deletedList{
+  background: #f5e1e1;
+  color: #300704
+}
+
+.deletedList li{
+  color: #685150
+}
+
+/* hover background colors */
+.draftLayout li:hover {
+  background: #d7e6ff
+}
+.onProgress li:hover {
+  background: #fff0d7
+}
+.finishedList li:hover {
+  background: #e0ffd7
+}
+.deletedList li:hover {
+  background: #ffd7d7
+}
+
+
+.finishedList ul, .deletedList ul {
+  height: 610px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .layout2 {
+    margin-top: 10px;
+    height: 264px
+  }
+  .deletedList {
+    margin-bottom: 10px
+  }
+}
+
+.entered {
+  background: #c9c9c9
+}
