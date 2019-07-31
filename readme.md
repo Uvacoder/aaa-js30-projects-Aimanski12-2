@@ -12,7 +12,7 @@
 </div>
 
 > Things I learned in this project;
-  * How to Bitwise operators as a sequence of 8 bits.
+  * How to use Bitwise operators as a sequence of 8 bits.
   * How to compute 8-bit byte numbers as a beginner programmer. 
   * How to use the 8-bit byte number as a control switch to output a seven segment number.
   *
