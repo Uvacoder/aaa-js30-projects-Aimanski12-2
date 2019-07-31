@@ -14,17 +14,17 @@ The projects are listed from the latest. :arrow_up:
 > Making draggable element in JS are one of the most interesting features that I always love to put my hands on. So I tried to build one TodoList to enhance my skills. I learned so many Javascript functions ans HTML elements when I build this app. 
 
 [View it live from your browser.](http://bit.ly/aiman-js12-dragndrop) Deployed with Firebase through ReactJS<br>
-[Watch Short Video Clip](https://youtu.be/TyO07BxubSg) <br>
-[View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj11).
-
+[Watch Short Video Clip](https://youtu.be/KOctk_GGe4c) <br>
+[View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj12).
 
 <div float="left">
-  <a href="https://youtu.be/TyO07BxubSg">
-    <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-js11-sevensegment.gif" alt="screen shot">
+  <a href="https://youtu.be/KOctk_GGe4c">
+    <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-js12-dragNdrop.gif" alt="screen shot">
   </a>
 </div>
 
 </details>
+
 
 <details>
   <summary><strong>11. Seven Segment Display<strong></summary>
@@ -36,7 +36,6 @@ The projects are listed from the latest. :arrow_up:
 [View it live from your browser.](http://bit.ly/aiman-js11-sevensegment) Deployed with Firebase through ReactJS<br>
 [Watch Short Video Clip](https://youtu.be/TyO07BxubSg) <br>
 [View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj11).
-
 
 <div float="left">
   <a href="https://youtu.be/TyO07BxubSg">
