@@ -7,6 +7,16 @@ Welcome to my Javascript Projects. This repo houses my javascript projects. Some
 The projects are listed from the latest. :arrow_up:
 
 <details>
+  <summary><strong>13. Block Puzzle<strong></summary>
+  
+  ### OverView :sunglasses:
+
+Coming Soon! 
+
+</details>
+
+
+<details>
   <summary><strong>12. Drag and Drop<strong></summary>
   
   ### OverView :sunglasses:
