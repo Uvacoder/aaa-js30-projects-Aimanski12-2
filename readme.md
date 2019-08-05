@@ -11,7 +11,7 @@ The projects are listed from the latest. :arrow_up:
   
   ### OverView :sunglasses:
 
-Coming Soon! 
+> Block Puzzles are one of my favorite toys that I always play with when I was a little boy. I was inspired to build this using my javascript skills and I am so happy. I also learned a lot of things building this. 
 
 </details>
 
