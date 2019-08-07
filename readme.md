@@ -13,6 +13,17 @@ The projects are listed from the latest. :arrow_up:
 
 > Block Puzzles are one of my favorite toys that I always played with when I was a little boy. I was inspired to build this using Javascript. I was so happy after I build it. I learned so many things from this.
 
+[View it live from your browser.](http://bit.ly/aiman-js13-blockpuzzles) Deployed with Firebase through ReactJS<br>
+[Watch Short Video Clip](https://www.youtube.com/watch?v=d17qja2vBXA) <br>
+[View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj13).
+
+<div float="left">
+  <a href="https://www.youtube.com/watch?v=d17qja2vBXA">
+    <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-js13-blockpuzzle.gif" alt="screen shot">
+  </a>
+</div>
+
+
 </details>
 
 
