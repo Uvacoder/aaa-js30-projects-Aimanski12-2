@@ -11,7 +11,7 @@ The projects are listed from the latest. :arrow_up:
   
   ### OverView :sunglasses:
 
-> Coming Soon!
+> Coming!
 
 
 </details>
