@@ -1,0 +1,217 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat'
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: #0e293b;
+  color: #93abb9;
+}
+
+.container {
+  width: 750px;
+  height: 600px;
+}
+
+/* header style */
+.header {
+  margin-top: 6%;
+  height: 10%;
+}
+
+.header h5 {
+  font-size: 2.5em;
+  color: #718d9f;
+}
+
+/* Top display style */
+.topDisplay{
+  margin-top: 20px;
+  height: 25%;
+}
+
+.topDisplay div{
+  float: left;
+  height: 100%;
+}
+
+
+/* top score and timer styles */
+.side {
+  width: 20%;
+  background: #14364b;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #031e32;
+}
+
+.sideTitle{
+  padding-top: 15px;
+  font-size: 1em
+}
+
+.sideNum {
+  font-size: 6em;
+  text-shadow: 2px 2px #011f32
+}
+
+.score {
+  color: #16a500;
+}
+
+.timer {
+  color: red
+}
+
+.flick {
+  animation: flickText 0.1s linear;
+}
+
+@keyframes flickText {
+  0% { transform: scale(0.95)}
+
+  80% { transform: scale(1.15) }
+  100% { transform: scale(0.95) }
+}
+
+
+/* Top center style */
+.center {
+  width: 60%;
+}
+.center h1{
+  font-size: 3.2em;
+  font-family: 'Ubuntu';
+  font-weight: 500;
+  color: #bccedb;
+  margin-top: 45px
+}
+.center .barIndicator{
+  height: 3px;
+}
+
+.barIndicator {
+  width: 95%;
+  position: relative;
+  margin: 20px 2.5% 0 2.5%;
+  border-radius: 2px
+}
+
+.front{
+  background: #524500;
+}
+
+.bar {
+  background: #fdd800;
+  top: -24px;
+  width: 0%;
+}
+
+.midDisplay {
+  height: 26%;
+  margin-top: 10px
+}
+.midDisplay .side {
+  width: 20%;
+  height: 100%;
+  float: left;
+  box-shadow: 5px 5px 5px #031e32;
+}
+.midDisplay .center{
+  width: 60%;
+  float: left;
+  height: 100%;
+}
+
+.midDisplay .side h5 {
+  margin-bottom: 15px
+}
+
+.midDisplay .side p {
+  text-align: left;
+  margin-top: 5px;
+  margin-left: 20px;
+  font-size: 0.8em
+}
+.midDisplay .side span{
+  color: #16a500;
+  font-size: 1.1em;
+  font-weight: 900;
+}
+
+.midDisplay .typedSaved {
+  overflow: hidden;
+  padding-bottom: 5px;
+
+}
+
+.midDisplay .typedSaved h5{
+  margin-bottom: 5px
+  
+}
+
+.midDisplay .typedSaved p{
+  margin: 0px 7px 15px 7px;
+  text-align: justify;
+}
+
+.midDisplay .typedSaved span {
+  font-size: 0.75em;
+  color: #93abb9;
+}
+
+
+/* message */
+.mes {
+  font-weight: 900;
+  color: orange;
+  text-shadow: 2px 2px #011f32;
+  height: 25px;
+}
+
+/* input style */
+.center input{
+  margin-top: 20px;
+  width: 90%;
+  height: 50%;
+  font-size: 1.7em;
+  text-align: center;
+  border-radius: 8px;
+  background: #042943;
+  box-shadow: 5px 5px 5px #031e32;
+  border: 2px solid #082539
+}
+
+.center input:hover {
+  cursor: pointer;
+}
+
+.center input:focus{
+  background: #2c5269;
+  color: #93abb9;
+  outline: none
+}
+
+.instruction {
+  padding: 10px;
+  height: 60px;
+  margin-top: 10px;
+  background: #14364b;
+  box-shadow: 5px 5px 5px #031e32;
+}
+
+/* instructions style */
+.instruction h3 {
+  font-size: 0.9em
+}
+.instruction p {
+  font-size: 0.9em
+}

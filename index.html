@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- author -->
+  <meta name="author" content="Aiman Adlawan">
+  <!-- description -->
+  <meta name="description" content="Block Puzzle Javascript Application">
+  <!-- keywords -->
+  <meta name="keywords" content="block puzzle">
+  <!-- icon -->
+  <link rel='icon' href='libs/img/js.png' type='image/x-icon'>
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu|Montserrat" rel="stylesheet">
+  <!-- css link -->
+  <link rel="stylesheet" href="css/style.css">
+  <title>Word Beater Game</title>
+</head>
+<body>
+  <div class='container'>
+
+    <!-- header -->
+    <div class="header">
+      <h5>Word Beater Game</h5>
+    </div>
+
+    <!-- top display -->
+    <div class="topDisplay">
+      <div class="side">
+        <h5 class='sideTitle'>Score</h5>
+        <h5 class='sideNum score'>0</h5>
+      </div>
+      <div class="center">
+          <span class='sideTitle'>Your word:</span>
+        <h1 class="word">Ready?</h1>
+        <div class='barIndicator front'></div>
+        <div class='barIndicator bar'></div>
+      </div>
+      <div class="side">
+        <h5 class='sideTitle'>Time</h5>
+        <h5 class='sideNum timer'>5</h5>
+      </div>
+    </div>
+
+    <!-- middle display -->
+    <div class="midDisplay">
+      <div class='side'>
+        <h5 class='sideTitle highScoreTitle'>High Score</h5>
+        <p>Score: <span class="highScore">0</span></p>
+        <p>Words: <span class="highWords">0</span></p>
+        <p>Totaltime: <span class="highTime">0:0</span></p>
+        <p>Average: <span class="highAve">0s/ w</span></p>
+
+      </div>
+      <div class='center'>
+        <p class='mes'>Ready?</p>
+        <input type="text" placeholder="Start typing here..." class='input'>
+      </div>
+      <div class='side typedSaved'>
+        <h5 class='sideTitle'>Typed words</h5>
+        <p><span class="typedWords"></span></p>
+        <!-- <p><span class="typedWords">start, green, saved, together, buzzle, deja vu, montreal, caribbean, ocean, ride, together, enter, blue, marlin</span></p> -->
+      </div>
+      
+    </div>
+    
+    <!-- instructions -->
+    <div class="instruction">
+      <h3>Instructions.</h3>
+      <p>Type the word provided before the time runs out to score. Each correct word is 2 points. When the time runs out, the game resets and high score will be recorded. To play again, type the current word.</p>
+    </div>
+  </div>
+</body>
+<script src='/js/words.js'></script>
+<script src='js/script.js'></script>
+</html>
