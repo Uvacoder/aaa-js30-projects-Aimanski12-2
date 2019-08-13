@@ -6,7 +6,6 @@
 
 [View it live from your browser.](http://bit.ly/aiman-js14-speedtyping) Deployed with Firebase through ReactJS<br>
 [Watch Short Video Clip](https://www.youtube.com/watch?v=lOAoW-kG9Hw) <br>
-[View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj14).
 
 <div float="left">
   <a href="https://www.youtube.com/watch?v=lOAoW-kG9Hw">
@@ -24,7 +23,7 @@
 
   > References:
   * [Local Storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
-  * [Design first code laterI](http://code.clearplan.io/design-first-code-later/)
+  * [Design first code later](http://code.clearplan.io/design-first-code-later/)
 
 ## Installation
 
