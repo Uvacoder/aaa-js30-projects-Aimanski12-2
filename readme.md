@@ -11,8 +11,18 @@ The projects are listed from the latest. :arrow_up:
   
   ### OverView :sunglasses:
 
-> Coming!
+> This is a speed typing app. It is inspired by [Traversy Media](https://www.youtube.com/watch?v=Yw-SYSG-028) video tutorial on youtube. In this app, I added a lot of complexities like flicker score, slider bar, flicker counter, save highest score on local storage and many more. I wrote this application using OOP or Object Oriented Programming.
 
+
+[View it live from your browser.](http://bit.ly/aiman-js14-speedtyping) Deployed with Firebase through ReactJS<br>
+[Watch Short Video Clip](https://www.youtube.com/watch?v=lOAoW-kG9Hw) <br>
+[View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj14).
+
+<div float="left">
+  <a href="https://www.youtube.com/watch?v=lOAoW-kG9Hw">
+    <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-js14-speedtyping.gif" alt="screen shot">
+  </a>
+</div>
 
 </details>
 
