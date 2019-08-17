@@ -7,6 +7,17 @@ Welcome to my Javascript Projects. This repo houses my javascript projects. Some
 The projects are listed from the latest. :arrow_up:
 
 <details>
+  <summary><strong>15. Photo Booth<strong></summary>
+  
+  ### OverView :sunglasses:
+
+> Coming Soon!
+
+</details>
+
+
+
+<details>
   <summary><strong>14. Word Beater<strong></summary>
   
   ### OverView :sunglasses:
