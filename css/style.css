@@ -1,0 +1,152 @@
+*{
+  font-family: 'baloo chettan';
+  margin: 0;
+  padding: 0;
+  color: #d2e6ff;
+  text-shadow: 1px 2px #162756
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: url('/libs/img/background.jpg') center
+}
+
+.containerOne {
+  width: 740px;
+  height: 800px;
+  background: linear-gradient(#7986ac, #4f608f, #162756);
+  box-shadow: 10px 10px 10px #061439
+}
+
+.containerTwo {
+  width: 700px;
+  height: 760px;
+  margin: 20px;
+  background: linear-gradient(#162756, #4f608f, #7986ac);
+}
+
+.header{
+  height: 30px;
+}
+.header h5 {
+  font-size: 1.4em;
+  
+}
+
+.navOptions{
+  height: 100px;
+}
+
+.navs {
+  width: 33.33%;
+  height: 100%;
+  float: left;
+  
+}
+
+.navs button, .takePhoto {
+  width: 80%;
+  margin-top: 10px;
+  height: 35px;
+  border: none;
+  font-size: 1em;
+  border-radius: 3px;
+  box-shadow: 3px 3px 1px #0b4a95;
+  background-image: linear-gradient(#579cf0, #0861cb);
+}
+
+.navs button:hover {
+  background-image: linear-gradient(#0861cb, #579cf0);
+}
+
+
+.inputRange label{
+  width: 40%;
+  height: 20px;
+}
+.inputRange input {
+  width: 60%;
+  height: 4px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 10px;
+  outline: none;
+  opacity: 0.6;
+  -webkit-transition: .3s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+  background: #42070b;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 12px;
+  height: 12px;
+  background: #42070b;
+  cursor: pointer;
+}
+
+
+.video{
+  display: none
+}
+.canvas {
+  width: 680px;
+  height: 480px;
+  margin: 5px;
+  background: linear-gradient(#87bbf9, #3380dc);
+  border: 1px dashed black;
+  border-radius: 5px;
+}
+
+.takePhoto{
+  width: 120px;
+  margin-top: 0px
+}
+
+.shotsTaken{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.image {
+  width: 106px;
+  height: 80px;
+  background: linear-gradient(#87bbf9, #3380dc);
+  margin: 8px 12px;
+  border: 1px dashed black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+  width: 106px;
+  height: 80px;
+  margin-top: 5px
+}
+img:hover{
+  cursor: pointer;
+}

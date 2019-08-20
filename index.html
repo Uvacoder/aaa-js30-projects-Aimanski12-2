@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- author -->
+  <meta name="author" content="Aiman Adlawan">
+  <!-- description -->
+  <meta name="description" content="Javascript Photo Booth App">
+  <!-- keywords -->
+  <meta name="keywords" content="Photo Booth">
+  <!-- icon -->
+  <link rel='icon' href='libs/img/js.png' type='image/x-icon'>
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan&display=swap" rel="stylesheet">
+  <!-- css link -->
+  <link rel="stylesheet" href="css/style.css">
+  <title>Aiman Photo Booth App</title>
+</head>
+<body>
+  <div class='containerOne'>
+    <div class='containerTwo'>
+
+    <!-- header -->
+    <div class='header'>
+      <h5>Photo Booth</h5>
+    </div>
+
+    <div class="navOptions">
+      <div class='navs'>
+        <button type="button" class="btn normal">Normal</button>
+        <button type="button" class="btn sephia">Sephia</button>
+      </div>
+      <div class='navs'>
+        <button type="button" class="btn negative">Negative</button>
+        <button type="button" class="btn blackNwhite">Black and White</button>
+      </div>
+      <div class='navs navInput'>
+        <div>Custom</div>
+        <div class='inputRange'>
+          <label for="rmin">R </label>
+            <input type="range" min=0 max=255 class='input red'>
+        </div>
+        <div class="inputRange">
+          <label for="rmin">G</label>
+            <input type="range" min=0 max=255 class='input green'>
+        </div>
+        <div class="inputRange">
+          <label for="rmin">B</label>
+            <input type="range" min=0 max=255 class='input blue'>
+        </div>
+      </div>
+    </div>
+
+
+    <div class=''>
+      <video class="video"></video>
+      <canvas class='canvas' width="640" height="480"></canvas>
+    </div>
+
+    <div class='shots'>
+      <button type="button" class="takePhoto">Take Photo</button>
+      <div class="shotsTaken">
+        <div class='image'>Photo 1</div>
+        <div class='image'>Photo 2</div>
+        <div class='image'>Photo 3</div>
+        <div class='image'>Photo 4</div>
+        <div class='image'>Photo 5</div>
+      </div>
+    </div>
+
+    </div>
+  </div>
+
+  <!-- <div class='photobooth'> 
+    <div class='controls'>
+      <button onClick='takePhoto()'>Take Photo</button>
+      <div class='rgb'>
+
+        <label for="rmin">Red Min:</label>
+          <input type="range" min=0 max=255 name='rmin'>
+
+        <label for="rmax">Red Max:</label>
+          <input type="range" min=0 max=255 name='rmax'>
+
+        <br>
+
+        <label for="rmin">Green Min:</label>
+          <input type="range" min=0 max=255 name='gmin'>
+
+        <label for="rmax">Green Max:</label>
+          <input type="range" min=0 max=255 name='gmax'>
+
+        <br>
+        
+        <label for="rmin">Blue Min:</label>
+          <input type="range" min=0 max=255 name='bmin'>
+        <label for="rmax">Blue Max:</label>
+          <input type="range" min=0 max=255 name='bmax'>
+      </div>
+    </div>
+
+      <canvas class='photo'></canvas>
+      <video class="player"></video>
+      <div class='strip'></div>
+      
+  </div> -->
+  <audio class='snap' src='/libs/audio/snap.mp3' hidden></audio>
+
+</body>
+<script src='js/script.js'></script>
+</html>
+
