@@ -3,12 +3,12 @@
 
 > I build this Photo Booth app that allows the user to make custom images. This app uses the users camera and then renders the image with the ability to manipulate the image by pixels. The app allows the user to capture images and save it to the users machine.
 
-[View it live from your browser.](http://bit.ly/aiman-js14-speedtyping) Deployed with Firebase through ReactJS<br>
-[Watch Short Video Clip](https://www.youtube.com/watch?v=lOAoW-kG9Hw) <br>
+[View it live from your browser.](http://bit.ly/aiman-js15-photobooth) Deployed with Firebase through ReactJS<br>
+[Watch Short Video Clip](https://www.youtube.com/watch?v=Pe4jK03f0QE&t=18s) <br>
 
 <div float="left">
-  <a href="https://www.youtube.com/watch?v=lOAoW-kG9Hw">
-    <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-js14-speedtyping.gif" alt="screen shot">
+  <a href="https://www.youtube.com/watch?v=Pe4jK03f0QE&t=18s">
+    <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-js15-photobooth.gif" alt="screen shot">
   </a>
 </div>
 
