@@ -9,7 +9,19 @@ The projects are listed from the latest. :arrow_up:
 <details>
   <summary><strong>15. Photo Booth<strong></summary>
   
-  ### OverView :sunglasses:
+  ### OverView 
+
+  > I build this Photo Booth app that allows the user to make custom images. This app uses the users camera and then renders the image with the ability to manipulate the image by pixels. The app allows the user to capture images and save it to the users machine.
+
+[View it live from your browser.](http://bit.ly/aiman-js15-photobooth) Deployed with Firebase through ReactJS<br>
+[Watch Short Video Clip](https://www.youtube.com/watch?v=Pe4jK03f0QE&t=18s) <br>
+[View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj15).
+
+<div float="left">
+  <a href="https://www.youtube.com/watch?v=Pe4jK03f0QE&t=18s">
+    <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-js15-photobooth.gif" alt="screen shot">
+  </a>
+</div>
 
 
 
