@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0
+}
+body{
+  background: url('/libs/img/background.jpg') center;
+  font-family: 'Acme';
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 98vh;
+  text-align: center;
+}
+
+.container{
+  width: 640px;
+  height: 480px;
+}
+
+.videoStream{
+  height: 100%;
+  width:  100%;
+  
+}
+
+.video{
+  width: 640px;
+  height: 480px;
+  display: none
+}
+
+.live{
+  position: relative;
+  float: right;
+  
+  font-size: 1.9em;
+  letter-spacing: 0.2em
+}
+
+.textArea{
+  height: 110px;
+  width: 640px;
+  position: relative;
+  top: -130px;
+  margin:  0;
+}
+
+.text{
+  font-size: 1.5em;
+  padding: 0px 30px;
+  text-align: center;
+  line-height: 135%;
+  color: orange
+}
