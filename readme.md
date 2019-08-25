@@ -7,6 +7,16 @@ Welcome to my Javascript Projects. This repo houses my javascript projects. Some
 The projects are listed from the latest. :arrow_up:
 
 <details>
+  <summary><strong>16. Speech Recognition<strong></summary>
+  
+  ### OverView :sunglasses
+
+  > Coming Soon!
+
+</details>
+
+
+<details>
   <summary><strong>15. Photo Booth<strong></summary>
   
   ### OverView 
@@ -22,8 +32,6 @@ The projects are listed from the latest. :arrow_up:
     <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-js15-photobooth.gif" alt="screen shot">
   </a>
 </div>
-
-
 
 </details>
 
