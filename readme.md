@@ -3,12 +3,12 @@
 
 > This is a speech recognition app. It is using the `SpeechRecognition` API that is only supported by Chrome browser (as of this time of publication). The API uses the uses microphone to process speech audio and converts the speech into a string of text.
 
-[View it live from your browser.](http://bit.ly/aiman-js15-photobooth) Deployed with Firebase through ReactJS<br>
-[Watch Short Video Clip](https://www.youtube.com/watch?v=Pe4jK03f0QE&t=18s) <br>
+[View it live from your browser.](http://bit.ly/aimanski-js16-speechrecognition) Deployed with Firebase through ReactJS<br>
+[Watch Short Video Clip](https://www.youtube.com/watch?v=UhEgxGKj6rY) <br>
 
 <div float="left">
-  <a href="https://www.youtube.com/watch?v=Pe4jK03f0QE&t=18s">
-    <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-js15-photobooth.gif" alt="screen shot">
+  <a href="https://www.youtube.com/watch?v=UhEgxGKj6rY">
+    <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-js16-speechrecognition.gif" alt="screen shot">
   </a>
 </div>
 
