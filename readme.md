@@ -9,9 +9,19 @@ The projects are listed from the latest. :arrow_up:
 <details>
   <summary><strong>16. Speech Recognition<strong></summary>
   
-  ### OverView :sunglasses
+  ### OverView 
+  
+  > This is a speech recognition app. It is using the `SpeechRecognition` API that is only supported by Chrome browser (as of this time of publication). The API uses the uses microphone to process speech audio and converts the speech into a string of text.
 
-  > Coming Soon!
+  [View it live from your browser.](http://bit.ly/aimanski-js16-speechrecognition) Deployed with Firebase through ReactJS<br>
+  [Watch Short Video Clip](https://www.youtube.com/watch?v=UhEgxGKj6rY) <br>
+  [View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj16).
+
+  <div float="left">
+    <a href="https://www.youtube.com/watch?v=UhEgxGKj6rY">
+      <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-js16-speechrecognition.gif" alt="screen shot">
+    </a>
+  </div>
 
 </details>
 
