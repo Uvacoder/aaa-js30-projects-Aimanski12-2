@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'baloo chettan';
+  text-align: center;
+  color: #454602
+}
+
+body{
+  background: url('/libs/img/background.jpg') no-repeat center;
+  height: 98vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column
+}
+
+.container {
+  background: #f2f3c7;
+  opacity: 0.8;
+  width: 450px;
+  height: 355px;
+  border-radius: 4px;
+  box-shadow: 15px 15px 10px #494a09
+}
+
+.header {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.voiceOptions {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.voiceOptions select{
+  width: 60%;
+  margin-top: 10px;
+  text-align-last: center;
+  font-size: 1em;
+  border: 1px solid #686a0c;
+  border-radius: 2px
+}
+
+.voiceVariations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 105px;
+  margin-top: 15px
+}
+
+.levels{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.levels label{
+  width: 50px;
+  margin-right: 10px
+}
+
+.levels input {
+  width: 300px;
+}
+
+.input{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 45px;
+}
+
+.input textarea{
+  width: 80%;
+  text-align: center;
+  height: 45px;
+  font-size: 1.2em;
+  color: #454602;
+  border-radius: 2px;
+  border: 1px solid #686a0c
+}
+
+
+
+.btnNav button{
+  width: 145px;
+  height: 40px;
+  font-size: 1.1em;
+  margin: 0 10px;
+  margin-top: 15px;
+  border-radius: 2px;
+  border: 1px solid #9b9e00;
+  background: linear-gradient(#eff1b6, #e9ec86, #c3c57e)
+}
+
+.btnNav button:hover{
+  cursor: pointer;
+  background: linear-gradient(#c3c57e, #e9ec86, #eff1b6);
+  border: 1px solid #b8b896;
+}

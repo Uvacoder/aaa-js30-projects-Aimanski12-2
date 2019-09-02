@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- author -->
+  <meta name="author" content="Aiman Adlawan">
+  <!-- description -->
+  <meta name="description" content="Speech Synthesis App">
+  <!-- keywords -->
+  <meta name="keywords" content="Javascript Speech Synthesis">
+  <!-- icon -->
+  <link rel='icon' href='libs/img/js.png' type='image/x-icon'>
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan&display=swap" rel="stylesheet">
+  <!-- css link -->
+  <link rel="stylesheet" href="css/style.css">
+  <title>Speech Synthesis</title>
+</head>
+<body>
+  <div class="container">
+    <div class='header'>
+      <h1>Voice Simulator</h1>
+    </div>
+
+    <div class="voiceOptions">
+      <span>Select Voice Options</span>
+      <select class='options'>
+        <option value="volvo">- options -</option>
+      </select>
+    </div>
+
+    <div class="voiceVariations">
+      <div class="levels">
+        <label>Speed</label>
+        <input type="range" name='rate' min="0" max="100">
+        
+      </div>
+      <div class="levels">
+        <label for="">Pitch</label>
+        <input type="range" name='pitch' min="0" max="20">
+        
+      </div>
+      <div class="levels">
+        <label for="">Volume</label>
+        <input type="range" name='volume' min="0" max="10">
+        
+      </div>
+    </div>
+
+    <div class="input">
+      <textarea name="input" id="" cols="30" rows="10" placeholder="Enter your text here" value="Enter your text here" id='text'></textarea>
+    </div>
+    <div class='btnNav'>
+      <button id="start">Start</button>
+      <button id="stop">Stop</button>
+    </div>
+
+  </div>
+</body>
+<script src='js/script.js'></script>
+</html>
