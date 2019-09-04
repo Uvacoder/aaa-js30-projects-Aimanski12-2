@@ -11,7 +11,17 @@ The projects are listed from the latest. :arrow_up:
   
   ### OverView 
   
-  > Coming Soon!
+  > This is a text to speech app where you can type any text and then the app will simulate a voice from the text you have entered. The app is using the `SpeechSynthesisUtterance` API to simulate a voice.
+
+  [View it live from your browser.](http://bit.ly/aimanski-js17-text2speech) Deployed with Firebase through ReactJS<br>
+  [Watch Short Video Clip](https://www.youtube.com/watch?v=aTexz67fKGs) <br>
+  [View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj17).
+
+  <div float="left">
+    <a href="https://www.youtube.com/watch?v=aTexz67fKGs">
+      <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-js17-text2speech.gif" alt="screen shot">
+    </a>
+  </div>
 
 </details>
 
