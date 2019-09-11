@@ -3,12 +3,12 @@
 
 > Word Guess is one of the games I used to play with for passt times. Now, with Javascript, I build one and so happy to share this with you. One of the things I really liked when building is app how to scramble words and omit the repeating characters and add more new characters.
 
-[View it live from your browser.](http://bit.ly/aimanski-js17-text2speech) Deployed with Firebase through ReactJS<br>
+[View it live from your browser.](http://bit.ly/aimanski-js18-wordguess) Deployed with Firebase through ReactJS<br>
 [Watch Short Video Clip](https://www.youtube.com/watch?v=aTexz67fKGs) <br>
 
 <div float="left">
-  <a href="https://www.youtube.com/watch?v=aTexz67fKGs">
-    <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-js17-text2speech.gif" alt="screen shot">
+  <a href="">
+    <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-js18-wordguess.gif" alt="screen shot">
   </a>
 </div>
 
