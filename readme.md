@@ -7,6 +7,15 @@ Welcome to my Javascript Projects. This repo houses my javascript projects. Some
 The projects are listed from the latest. :arrow_up:
 
 <details>
+  <summary><strong>19. Body Mass Index Counter<strong></summary>
+  
+  ### OverView 
+  
+  > Coming Soon!
+
+</details>
+
+<details>
   <summary><strong>18. Word Guess<strong></summary>
   
   ### OverView 
