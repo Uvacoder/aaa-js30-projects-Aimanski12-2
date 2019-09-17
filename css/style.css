@@ -1,0 +1,132 @@
+* {
+  font-family: 'baloo chettan';
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #013540
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background: url('../libs/img/background.jpg') center
+}
+
+.container {
+  width: 320px;
+  height: 335px;
+  border-radius: 4px;
+  box-shadow: 5px 5px 5px #067189;
+  background-image: linear-gradient(to bottom, #11839c, #179fbd, #17b4d6, #179fbd, #11839c)
+}
+
+.header{
+  height: 40px;
+}
+
+.header h1 {
+  font-size: 1.7em;
+}
+
+.body{
+  height: 280px;
+  padding-top: 5px;
+}
+
+.input, .btn{
+  height: 70px;
+}
+
+.input label{
+  display: block;
+  width: 100%;
+  font-size: 1.3em;
+}
+
+.input input, .btn button {
+  width: 40%;
+  border: none;
+  background: #dff6fb;
+  height: 35px;
+  border-radius: 3px;
+  font-size: 1em;
+  color: #306571
+}
+
+::placeholder{
+  color: #89b9c4
+}
+
+*:focus{
+  outline: none
+}
+
+.btn {
+  margin-top: 15px;
+  height: 40px;
+}
+
+.btn button {
+  width: 60%;
+  font-size: 1.2em
+}
+
+button:hover {
+  background: #c1e1e8;
+  cursor: pointer;
+}
+
+.output {
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.95em;
+  padding: 8px;
+  /* background: red */
+}
+
+.footer{
+  background: #e5b412;
+  height: 23px;
+  font-size: 0.8em;
+  padding-top: 5px;
+  border-radius: 0 0 4px 4px
+}
+.footer:hover{
+  cursor: pointer;
+  background: #d1ac31
+}
+.footer p {
+  color: #466166
+}
+
+.error{
+  color: #af0404;
+}
+
+.res {
+  color: skyblue
+}
+
+.anim{
+  animation: err 0.2s linear
+}
+
+@keyframes err {
+  0% { 
+    transform: scale(0.8)
+  }
+
+  50% { 
+    transform: scale(1.2)
+  }
+
+  100% {
+    transform: scale(1)
+  }
+}
