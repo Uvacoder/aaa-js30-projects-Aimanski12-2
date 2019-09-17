@@ -15,8 +15,6 @@
 > Things I learned in this project;
   * How to shorter codes and reusable functions.
   * How to build app using Object Oriented Programming.
-  * How to 
-  
 
   > References:
   * [Body Mass Index](https://en.wikipedia.org/wiki/Body_mass_index)
