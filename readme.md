@@ -1,4 +1,4 @@
-## Body Mass Index Counter
+## Body Mass Index Calculator
 
 
 > This is a body mass index counter app. It allows you to calculate your body mass index base on the universal expressed in units pounds/m2. I wanted to apply my javascript skills in building this app was so happy I made one. 
