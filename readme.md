@@ -7,11 +7,22 @@ Welcome to my Javascript Projects. This repo houses my javascript projects. Some
 The projects are listed from the latest. :arrow_up:
 
 <details>
-  <summary><strong>19. Body Mass Index Counter<strong></summary>
+  <summary><strong>19. Body Mass Index Calculator<strong></summary>
   
   ### OverView 
   
-  > Coming Soon!
+  > This is a body mass index counter app. It allows you to calculate your body mass index base on the universal expressed in units pounds/m2. I wanted to apply my javascript skills in building this app was so happy I made one. 
+
+  [View it live from your browser.](http://bit.ly/aimanski-js19-bmicalculator) Deployed with Firebase through ReactJS<br>
+  [Watch Short Video Clip](https://www.youtube.com/watch?v=fdFMdK5l3_0&feature=youtu.be) <br>
+  [View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj19).
+
+
+<div float="left">
+  <a href="https://www.youtube.com/watch?v=fdFMdK5l3_0&feature=youtu.be">
+    <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-js19-bmicalculator.gif" alt="screen shot">
+  </a>
+</div>
 
 </details>
 
