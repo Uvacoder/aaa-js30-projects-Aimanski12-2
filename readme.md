@@ -7,6 +7,16 @@ Welcome to my Javascript Projects. This repo houses my javascript projects. Some
 The projects are listed from the latest. :arrow_up:
 
 <details>
+  <summary><strong>20. Tic Tac Toe<strong></summary>
+  
+  ### OverView 
+  
+  > Coming Soon!
+
+</details>
+
+
+<details>
   <summary><strong>19. Body Mass Index Calculator<strong></summary>
   
   ### OverView 
