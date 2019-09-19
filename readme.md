@@ -4,10 +4,10 @@
 > This is a body mass index counter app. It allows you to calculate your body mass index base on the universal expressed in units pounds/m2. I wanted to apply my javascript skills in building this app was so happy I made one. 
 
 [View it live from your browser.](http://bit.ly/aimanski-js19-bmicalculator) Deployed with Firebase through ReactJS<br>
-[Watch Short Video Clip]() <br>
+[Watch Short Video Clip](https://www.youtube.com/watch?v=fdFMdK5l3_0&t=7s) <br>
 
 <div float="left">
-  <a href="">
+  <a href="https://www.youtube.com/watch?v=fdFMdK5l3_0&t=7s">
     <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-js19-bmicalculator.gif" alt="screen shot">
   </a>
 </div>
