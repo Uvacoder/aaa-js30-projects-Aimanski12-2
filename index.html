@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- author -->
+  <meta name="author" content="Aiman Adlawan">
+  <!-- description -->
+  <meta name="description" content="Color Picker App by Aiman Adlawan">
+  <!-- keywords -->
+  <meta name="keywords" content="Javascript Color Picker App">
+  <!-- icon -->
+  <link rel='icon' href='libs/img/js.png' type='image/x-icon'>
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan&display=swap" rel="stylesheet">
+  <!-- css link -->
+  <link rel="stylesheet" href="css/style.css">
+  <title>Aimanski | Color Picker</title>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Color Picker</h1>
+    </div>
+
+    <!-- picker -->
+    <div class="picker">
+        <div class="input">
+          Red <input type="range" min="0" max="255" id="red" value="130">
+          Green <input type="range" min="0" max="255"  id="green" value="130">
+          Blue <input type="range" min="0" max="255" id="blue" value="130">
+        </div>
+        <div class="display"></div>
+        <div class="colors">
+          <p>Hex: <span class='hex'>#828282</span></p>
+          <p>RGB: <span class='rgb'>(130,130,130)</span></p>
+          <button class='save'>Save Color</button>
+        </div>
+    </div>
+
+    <!-- placer -->
+    <div class='palettes'>
+      <!-- selected color palettes will come here -->
+     </div>
+    <!-- placer ends -->
+      
+    </div>
+</body>
+<script src='js/script.js'></script>
+</html>
