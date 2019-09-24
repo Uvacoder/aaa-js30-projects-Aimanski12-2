@@ -6,7 +6,7 @@
 [Watch Short Video Clip]() <br>
 
 <div float="left">
-  <a href="">
+  <a href="https://www.youtube.com/watch?v=NLSvcw116OY&feature=youtu.be">
     <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-js21-colorpicker.gif" alt="screen shot">
   </a>
 </div>
