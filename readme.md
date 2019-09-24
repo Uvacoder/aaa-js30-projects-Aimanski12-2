@@ -2,8 +2,8 @@
 
 > This is my color picker project. A project that has been in my project list for quite a long time. I have finally made one. I'm so happy i have achieved this.
 
-[View it live from your browser.]() Deployed with Firebase through ReactJS<br>
-[Watch Short Video Clip]() <br>
+[View it live from your browser.](http://bit.ly/aimanski-js21-colorpicker) Deployed with Firebase through ReactJS<br>
+[Watch Short Video Clip](https://www.youtube.com/watch?v=NLSvcw116OY&feature=youtu.be) <br>
 
 <div float="left">
   <a href="https://www.youtube.com/watch?v=NLSvcw116OY&feature=youtu.be">
