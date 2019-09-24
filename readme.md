@@ -7,6 +7,26 @@ Welcome to my Javascript Projects. This repo houses my javascript projects. Some
 The projects are listed from the latest. :arrow_up:
 
 <details>
+  <summary><strong>21. Color Picker<strong></summary>
+  
+  ### OverView 
+  
+  > This is my color picker project. A project that has been in my project list for quite a long time. I have finally made one. I'm so happy i have achieved this.
+
+  [View it live from your browser.](http://bit.ly/aimanski-js21-colorpicker) Deployed with Firebase through ReactJS<br>
+  [Watch Short Video Clip](https://www.youtube.com/watch?v=NLSvcw116OY&feature=youtu.be) <br>
+  [View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj21).
+
+  <div float="left">
+    <a href="https://www.youtube.com/watch?v=NLSvcw116OY&feature=youtu.be">
+      <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-js21-colorpicker.gif" alt="screen shot">
+    </a>
+  </div>
+
+</details>
+
+
+<details>
   <summary><strong>20. Tic Tac Toe<strong></summary>
   
   ### OverView 
@@ -18,11 +38,11 @@ The projects are listed from the latest. :arrow_up:
   [View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj20).
 
 
-<div float="left">
-  <a href="https://www.youtube.com/watch?v=f9uBMorXXCg&feature=youtu.be">
-    <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-js20-tictactoe.gif" alt="screen shot">
-  </a>
-</div>
+  <div float="left">
+    <a href="https://www.youtube.com/watch?v=f9uBMorXXCg&feature=youtu.be">
+      <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-js20-tictactoe.gif" alt="screen shot">
+    </a>
+  </div>
 
 </details>
 
