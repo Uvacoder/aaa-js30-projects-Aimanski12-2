@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- author -->
+  <meta name="author" content="Aiman Adlawan">
+  <!-- description -->
+  <meta name="description" content="Rock Paper Scissors App">
+  <!-- keywords -->
+  <meta name="keywords" content="rock paper scissors">
+  <!-- icon -->
+  <link rel='icon' href='libs/img/js.png' type='image/x-icon'>
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan&display=swap" rel="stylesheet">
+  <!-- css link -->
+  <link rel="stylesheet" href="css/style.css">
+  <title>Aimanski | Rock Paper Scissors</title>
+</head>
+<body>
+  <div class="container">
+
+    <!-- top display -->
+    <div class="top">
+      <div class="score">
+        <h1>Player</h1>
+        <p class='plScore'>0</p>
+      </div>
+      <div class="score">
+        <h1>Computer</h1>
+        <p class='comScore'>0</p>
+      </div>
+    </div>
+
+    <!-- middle display -->
+    <div class="middle">
+
+      <!-- display when loaded -->
+      <div class="first">
+        <h1>Rock Paper Scissors</h1>
+        <button class='start'>Start Playing</button>
+      </div>
+
+      <!-- display when user starts to play -->
+      <div class='second'>
+
+        <!-- hands container -->
+        <div class="handsContainer">
+          <div class="playerHand">
+            <img class="player" src="/libs/img/rock.png" alt="">
+          </div>
+          <div class="computerHand">
+            <img class="computer" src="/libs/img/rock.png" alt="">
+          </div>
+        </div>
+        <!-- message area -->
+        <div class='messageDisplay'>
+          <h1>Choose an option</h1>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- bottom display -->
+    <div class="bottom">
+      <button class='btn rock'>rock</button>
+      <button class='btn paper'>paper</button>
+      <button class='btn scissors'>scissors</button>
+    </div>
+
+  </div>
+
+  <!-- audio -->
+  <audio data-key='intro' src="./libs/audio/intro.mp3"></audio>
+  <audio data-key='score' src="./libs/audio/score.mp3"></audio>
+  <audio data-key='shake' src="./libs/audio/shake.mp3"></audio>
+</body>
+<script src='js/script.js'></script>
+</html>
