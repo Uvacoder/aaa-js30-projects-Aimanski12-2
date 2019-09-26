@@ -58,14 +58,17 @@ function ready() {
 }
 
 
+var selectedImg = []
 function click() {
   var b = this.firstElementChild;
+  let c = this.firstElementChild.firstElementChild.nextElementSibling
+  c.style.zIndex = 15
   b.classList.add('flip');
-  evaluator(this);
+  evaluator(this, c);
 }
 
 var selectedBox = [];
-function evaluator(a) {
+function evaluator(a, c) {
   select.play()
 
   if (a.classList[1] === undefined) {
@@ -73,6 +76,7 @@ function evaluator(a) {
   }
 
   selectedBox.push(a);
+  selectedImg.push(c)
 
   if (selectedBox.length === 1) {
     mes.innerHTML = "Be sure!";
@@ -82,6 +86,9 @@ function evaluator(a) {
     if (selectedBox[0].firstElementChild.classList[1] == selectedBox[1].firstElementChild.classList[1]) {
       removePic(selectedBox)
       selectedBox = [];
+
+      
+      selectedImg = []
     } else {
       hidePic(selectedBox);
       selectedBox = [];
@@ -137,13 +144,16 @@ function removePic(a) {
   }, 700)
 }
 
-function hidePic(a) {
+function hidePic(a ) {
   setTimeout(function () {
     for (var x = 0; x < 2; x++) {
       a[x].firstElementChild.classList.remove('flip')
     }
     mes.innerHTML = "Wrong!";
     wrong.play()
+    selectedImg[0].style.zIndex = 0
+    selectedImg[1].style.zIndex = 0
+    selectedImg = []
   }, 700)
 }
 

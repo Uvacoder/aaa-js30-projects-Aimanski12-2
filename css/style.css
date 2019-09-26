@@ -114,6 +114,7 @@ body {
   height: 100%;
   background: #fed4d1;
   transition: all 0.5s ease;
+  z-index: 10
 }
 
 .back {
@@ -123,6 +124,7 @@ body {
   transform: rotateY(180deg);
   transition: all 0.5s ease;
   backface-visibility: hidden;
+  z-index: 5
 }
 
 .addSc {
