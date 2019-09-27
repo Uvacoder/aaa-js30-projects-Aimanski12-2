@@ -3,11 +3,11 @@
 > Rock Paper Scissors is one of the most common games everybody used to play when they were young. I made one app like so using javascript and so happy about how the app came out.
 
 [View it live from your browser.](http://bit.ly/aimanski-js22-rockpaperscissors) Deployed with Firebase through ReactJS<br>
-[Watch Short Video Clip]() <br>
+[Watch Short Video Clip](https://www.youtube.com/watch?v=EFO3KtdWzew) <br>
 
 <div float="left">
-  <a href="">
-    <img src="" alt="screen shot">
+  <a href="https://www.youtube.com/watch?v=EFO3KtdWzew">
+    <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-js22-rockpaperscissors.gif" alt="screen shot">
   </a>
 </div>
 
