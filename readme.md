@@ -11,7 +11,17 @@ The projects are listed from the latest. :arrow_up:
   
   ### OverView 
   
-  > Coming Soon!
+  > I always want to build my own calculator app and in this project, I have buid one. It can compute 21 digits or more from the decimal point. It can also handle huge numbers and return an exponent. 
+
+  [View it live from your browser.](http://bit.ly/aimanski-js23-calculator) Deployed with Firebase through ReactJS<br>
+  [View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj23). <br>
+  [Watch Short Video Clip]() <br>
+
+  <div float="left">
+    <a href="">
+      <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-js23-calculator.gif" alt="screen shot">
+    </a>
+  </div>
 
 </details>
 
