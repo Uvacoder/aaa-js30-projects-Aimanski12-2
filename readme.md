@@ -3,10 +3,10 @@
 > I always want to build my own calculator app and in this project, I have buid one. It can compute 21 digits or more from the decimal point. It can also handle huge numbers and return an exponent. 
 
 [View it live from your browser.](http://bit.ly/aimanski-js23-calculator) Deployed with Firebase through ReactJS<br>
-[Watch Short Video Clip]() <br>
+[Watch Short Video Clip](https://youtu.be/gOpke_Eoiac) <br>
 
 <div float="left">
-  <a href="">
+  <a href="https://youtu.be/gOpke_Eoiac">
     <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-js23-calculator.gif" alt="screen shot">
   </a>
 </div>
