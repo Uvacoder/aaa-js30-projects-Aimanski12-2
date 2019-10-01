@@ -1,0 +1,101 @@
+* {
+  font-family: 'Roboto';
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background: #64686c
+}
+
+.container{
+  width: 350px;
+  height: 527px;
+  background: #06346f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px
+}
+
+.output{
+  background: #134382;
+  width: 320px;
+  height: 75px;
+  margin: 15px 15px 10px 15px;
+  color: #e5ebf1
+}
+.typed{
+  height: 15px;
+  text-align: right;
+  padding: 5px 15px 0 0
+}
+
+.result{
+  height: 50px;
+  width: 305px;
+  font-size: 2.6em;
+  text-align: right;
+  padding: 0px 15px 0 0;
+}
+
+.btns{
+  height: 440px;
+  width: 340px;
+  padding-left: 8px;
+}
+
+button {
+  width: 77px;
+  height: 77px;
+  background: #134382;
+  margin: 2px;
+  float: left;
+  border: 1px solid #134382;
+  margin: 3px;
+  border-radius: 8px;
+  color: #e5ebf1;
+  font-size: 1.7em;
+  box-shadow: 2px 2px 2px #122d50
+}
+
+button:focus{
+  outline: none;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #174a8d;
+}
+
+.op{
+  background: #a24e10;
+  border: 1px solid #a24e10;
+  font-size: 1.9em;
+}
+
+.op:hover {
+  background: #ac5413;
+}
+
+.fn {
+  background: #646261;
+  border: 1px solid #646261;
+  font-size: 1.6em;
+}
+
+.fn:hover {
+  background: #6d6b6a;
+}
+
+.blink{
+  border: 2px solid rgb(155,155,155);
+  background-color: rgb(155, 155, 155);
+}
