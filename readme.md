@@ -23,7 +23,7 @@ The projects are listed from the latest. :arrow_up:
   > Rock Paper Scissors is one of the most common games everybody used to play when they were young. I made one app like so using javascript and so happy about how the app came out.
 
 [View it live from your browser.](http://bit.ly/aimanski-js22-rockpaperscissors) Deployed with Firebase through ReactJS<br>
-[View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj22).
+[View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj22). <br>
 [Watch Short Video Clip](https://www.youtube.com/watch?v=EFO3KtdWzew) <br>
 
 
