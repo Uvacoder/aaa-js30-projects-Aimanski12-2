@@ -15,10 +15,10 @@ The projects are listed from the latest. :arrow_up:
 
   [View it live from your browser.](http://bit.ly/aimanski-js23-calculator) Deployed with Firebase through ReactJS<br>
   [View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj23). <br>
-  [Watch Short Video Clip]() <br>
+  [Watch Short Video Clip](https://youtu.be/gOpke_Eoiac) <br>
 
   <div float="left">
-    <a href="">
+    <a href="https://youtu.be/gOpke_Eoiac">
       <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-js23-calculator.gif" alt="screen shot">
     </a>
   </div>
