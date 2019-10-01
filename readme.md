@@ -7,11 +7,31 @@ Welcome to my Javascript Projects. This repo houses my javascript projects. Some
 The projects are listed from the latest. :arrow_up:
 
 <details>
-  <summary><strong>22 Rock Paper Scissors<strong></summary>
+  <summary><strong>23. Calculator<strong></summary>
   
   ### OverView 
   
   > Coming Soon!
+
+</details>
+
+<details>
+  <summary><strong>22. Rock Paper Scissors<strong></summary>
+  
+  ### OverView 
+  
+  > Rock Paper Scissors is one of the most common games everybody used to play when they were young. I made one app like so using javascript and so happy about how the app came out.
+
+[View it live from your browser.](http://bit.ly/aimanski-js22-rockpaperscissors) Deployed with Firebase through ReactJS<br>
+[View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj22).
+[Watch Short Video Clip](https://www.youtube.com/watch?v=EFO3KtdWzew) <br>
+
+
+  <div float="left">
+  <a href="https://www.youtube.com/watch?v=EFO3KtdWzew">
+    <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-js22-rockpaperscissors.gif" alt="screen shot">
+  </a>
+</div>
 
 </details>
 
@@ -23,8 +43,8 @@ The projects are listed from the latest. :arrow_up:
   > Rock Paper Scissors is one of the most common games everybody used to play when they were young. I made one app like so using javascript and so happy about how the app came out.
 
   [View it live from your browser.](http://bit.ly/aimanski-js22-rockpaperscissors) Deployed with Firebase through ReactJS<br>
-  [View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj22).
-  [Watch Short Video Clip](https://www.youtube.com/watch?v=EFO3KtdWzew) <br>
+  [View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj21).
+  [Watch Short Video Clip](https://www.youtube.com/watch?v=NLSvcw116OY) <br>
 
   <div float="left">
     <a href="https://www.youtube.com/watch?v=EFO3KtdWzew">
