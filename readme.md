@@ -7,6 +7,26 @@ Welcome to my Javascript Projects. This repo houses my javascript projects. Some
 The projects are listed from the latest. :arrow_up:
 
 <details>
+  <summary><strong>24. Bouncing Particles<strong></summary>
+  
+  ### OverView 
+  
+  > This is a simple bouncing particle created from a javascript canvas. It allows the use to create multiple particles with variations of color combinations.
+
+  [View it live from your browser.](http://bit.ly/aimanski-js24-particles) Deployed 
+  with Firebase through ReactJS<br>
+  [View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj24). <br>
+  [Watch Short Video Clip]() <br>
+
+<div float="left">
+  <a href="">
+    <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-js24-bouncingparticles.gif" alt="screen shot">
+  </a>
+</div>
+</details>
+
+
+<details>
   <summary><strong>23. Calculator<strong></summary>
   
   ### OverView 
@@ -297,7 +317,7 @@ The projects are listed from the latest. :arrow_up:
 
   <div float="left">
     <a href="https://youtu.be/CuBiikmc_vI">
-      <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-09-snake.gif" alt="screen shot">
+      <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-js09-snake.gif" alt="screen shot">
     </a>
   </div>
 </details>
@@ -316,7 +336,7 @@ The projects are listed from the latest. :arrow_up:
 
   <div float="left">
     <a href="https://youtu.be/JBiNqM2tNtU">
-      <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-08-canvas.gif" alt="screen shot">
+      <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-js08-canvas.gif" alt="screen shot">
     </a>
   </div>
 </details>
