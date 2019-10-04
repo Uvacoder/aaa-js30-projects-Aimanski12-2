@@ -1,0 +1,100 @@
+* {
+  font-family: 'baloo chettan';
+  text-align: center;
+  margin: 0;
+  padding: 0
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  color: #03285d;
+  background: rgb(180, 185, 180);
+}
+
+.container{
+  width: 350px;
+  height: 305px;
+  background: #6d8ebd;
+  border-radius: 5px;
+  box-shadow: 7px 7px 7px rgb(95,95,95);
+  opacity: 1;
+
+}
+
+.header{
+  line-height: 60px;
+  font-size: 0.9em;
+}
+
+.inputs {
+  width: 350px;
+  height: 220px;
+  padding-top: 15px;
+}
+
+.inputs label{
+  width: 100%;
+  display: block;
+  line-height: 30px;
+}
+
+.inputs input{
+  border: none;
+  height: 35px;
+  width: 150px;
+  font-size: 1.4em;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  color: gray;
+  background: #dceaff
+}
+
+.select{
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.select select{
+  color: gray;
+  height: 35px;
+  width: 150px;
+  border: none;
+  font-size: 1.15em;
+  border-radius: 3px;
+  padding-left: 8px;
+  background: #dceaff
+}
+
+button{
+  color: gray;
+  height: 35px;
+  width: 150px;
+  border: none;
+  font-size: 1.2em;
+  border-radius: 3px;
+  padding-left: 8px;
+  background: #dceaff
+}
+
+button:hover, select:hover, input:hover{
+  cursor: pointer;
+  background: rgb(210,210,210)
+}
+
+canvas{
+  background: rgb(180,185,180);
+}
+
+.fadeOut {
+  opacity: 0;
+  transition: opacity 0.3s ease
+}
+
+.fadeIn {
+  opacity: 1;
+  transition: opacity 0.9s ease 0.3s
+}
