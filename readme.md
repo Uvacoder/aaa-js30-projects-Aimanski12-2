@@ -16,10 +16,10 @@ The projects are listed from the latest. :arrow_up:
   [View it live from your browser.](http://bit.ly/aimanski-js24-particles) Deployed 
   with Firebase through ReactJS<br>
   [View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj24). <br>
-  [Watch Short Video Clip]() <br>
+  [Watch Short Video Clip](https://youtu.be/aUPVR2y9b_c) <br>
 
 <div float="left">
-  <a href="">
+  <a href="https://youtu.be/aUPVR2y9b_c">
     <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-js24-bouncingparticles.gif" alt="screen shot">
   </a>
 </div>
