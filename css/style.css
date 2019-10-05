@@ -1,0 +1,21 @@
+* {
+  font-family: 'baloo chettan';
+  text-align: center;
+  margin: 0;
+  padding: 0
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  cursor: pointer
+}
+
+
+canvas {
+  background: rgb(180, 185, 180);
+  opacity: 1;
+}
