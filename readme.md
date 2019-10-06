@@ -7,7 +7,7 @@
 
 <div float="left">
   <a href="">
-    <img src="" alt="screen shot">
+    <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-js25-bubbles.gif" alt="screen shot">
   </a>
 </div>
 
