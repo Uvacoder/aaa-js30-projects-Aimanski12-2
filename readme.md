@@ -7,6 +7,25 @@ Welcome to my Javascript Projects. This repo houses my javascript projects. Some
 The projects are listed from the latest. :arrow_up:
 
 <details>
+  <summary><strong>25. Bubbles<strong></summary>
+  
+  ### OverView 
+  
+  > This is a simple bubbling particles created from a javascript canvas. Whenever the user hovers his mouse to the screen, any bubble near the cursor will grow in size and decrease when it goes away from the cursor.
+
+  [View it live from your browser.](http://bit.ly/aimanski-js25-bubbles) Deployed 
+  with Firebase through ReactJS<br>
+  [View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj25). <br>
+  [Watch Short Video Clip](https://youtu.be/onl5ZQzd1Jw) <br>
+
+<div float="left">
+  <a href="https://youtu.be/onl5ZQzd1Jw">
+    <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-js25-bubbles.gif" alt="screen shot">
+  </a>
+</div>
+</details>
+
+<details>
   <summary><strong>24. Bouncing Particles<strong></summary>
   
   ### OverView 
