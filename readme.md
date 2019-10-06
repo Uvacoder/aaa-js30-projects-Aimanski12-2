@@ -3,10 +3,10 @@
 > This is a simple bubbling particles created from a javascript canvas. Whenever the user hovers his mouse to the screen, any bubble near the cursor will grow in size and decrease when it goes away from the cursor.
 
 [View it live from your browser.](http://bit.ly/aimanski-js25-bubbles) Deployed with Firebase through ReactJS<br>
-[Watch Short Video Clip]() <br>
+[Watch Short Video Clip](https://youtu.be/onl5ZQzd1Jw) <br>
 
 <div float="left">
-  <a href="">
+  <a href="https://youtu.be/onl5ZQzd1Jw">
     <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-js25-bubbles.gif" alt="screen shot">
   </a>
 </div>
