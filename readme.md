@@ -7,6 +7,24 @@ Welcome to my Javascript Projects. This repo houses my javascript projects. Some
 The projects are listed from the latest. :arrow_up:
 
 <details>
+  <summary><strong>26. Drop Ball<strong></summary>
+  
+  ### OverView 
+  
+  > I would like to call this app drop ball. Its just a basic app that allows the user to click on the screen and a ball comes out from and drop down to its own gravity.
+
+  [View it live from your browser.](http://bit.ly/aimanski-js26-dropball) Deployed with Firebase through ReactJS<br>
+  [View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj26). <br>
+  [Watch Short Video Clip](https://www.youtube.com/watch?v=5gfl1-1iMCc) <br>
+
+  <div float="left">
+    <a href="https://www.youtube.com/watch?v=5gfl1-1iMCc">
+      <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-js26-dropball.gif" alt="screen shot">
+    </a>
+  </div>
+</details>
+
+<details>
   <summary><strong>25. Bubbles<strong></summary>
   
   ### OverView 
