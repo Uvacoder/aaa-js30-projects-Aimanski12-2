@@ -6,8 +6,8 @@
 [Watch Short Video Clip](https://www.youtube.com/watch?v=5gfl1-1iMCc) <br>
 
 <div float="left">
-  <a href="">
-    <img src="https://www.youtube.com/watch?v=5gfl1-1iMCc" alt="screen shot">
+  <a href="https://www.youtube.com/watch?v=5gfl1-1iMCc">
+    <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-js26-dropball.gif" alt="screen shot">
   </a>
 </div>
 
