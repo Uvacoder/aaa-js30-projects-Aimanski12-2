@@ -3,10 +3,10 @@
 > This is an app that generates random quotes from the [Quotable API](https://github.com/lukePeavey/quotable). It is a lightweight API that you can query for free. 
 
 [View it live from your browser.](http://bit.ly/aimanski-js27-quote) Deployed with Firebase through ReactJS<br>
-[Watch Short Video Clip]() <br>
+[Watch Short Video Clip](https://youtu.be/KBr8aUpVZn0) <br>
 
 <div float="left">
-  <a href="">
+  <a href="https://youtu.be/KBr8aUpVZn0">
     <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-js27-quotes.gif" alt="screen shot">
   </a>
 </div>
