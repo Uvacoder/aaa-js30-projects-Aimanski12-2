@@ -1,0 +1,48 @@
+* {
+  font-family: 'baloo chettan';
+  text-align: center;
+  margin: 0;
+  padding: 0
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.quote{
+  width: 80%;
+  margin-bottom: 25px;
+  font-size: 2.3em;
+  opacity: 0;
+}
+
+.author{
+  font-size: 1.7em;
+  opacity: 0;
+}
+
+.btn{
+  margin-top: 15px;
+  font-size: 1.2em;
+  opacity: 0;
+}
+
+button{
+  width: 150px;
+  height: 40px;
+  margin-top: 50px
+}
+
+.fadeIn {
+  opacity: 1;
+  transition: opacity 0.3s ease
+}
+
+.fadeOut {
+  opacity: 0;
+  transition: opacity 0.4s ease
+}
