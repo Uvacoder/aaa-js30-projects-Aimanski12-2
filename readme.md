@@ -7,6 +7,24 @@ Welcome to my Javascript Projects. This repo houses my javascript projects. Some
 The projects are listed from the latest. :arrow_up:
 
 <details>
+  <summary><strong>27. Quotes<strong></summary>
+  
+  ### OverView 
+  
+  > This is an app that generates random quotes from the [Quotable API](https://github.com/lukePeavey/quotable). It is a lightweight API that you can query for free. 
+
+  [View it live from your browser.](http://bit.ly/aimanski-js27-quote) Deployed with Firebase through ReactJS<br>
+  [View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj27). <br>
+  [Watch Short Video Clip](https://www.youtube.com/watch?v=KBr8aUpVZn0) <br>
+
+  <div float="left">
+    <a href="https://www.youtube.com/watch?v=KBr8aUpVZn0">
+      <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-js27-quotes.gif" alt="screen shot">
+    </a>
+  </div>
+</details>
+
+<details>
   <summary><strong>26. Drop Ball<strong></summary>
   
   ### OverView 
