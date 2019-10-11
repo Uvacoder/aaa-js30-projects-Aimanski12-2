@@ -1,0 +1,136 @@
+* {
+  font-family: 'Mansalva';
+  text-align: center;
+  margin: 0;
+  padding: 0
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background: url('/libs/img/background.jpg') repeat center;
+  color: #d7ddee
+}
+
+.container {
+  width: 600px;
+  height: 640px;
+  background-image: linear-gradient(#4e62a1, #7285bf, #687dbd, #7285bf, #4e64a9);
+  border-radius: 10px;
+  opacity: 0.9;
+  box-shadow: 15px 15px 17px #7687b9
+}
+
+.top{
+  height: 330px;
+}
+
+.header {
+  line-height: 50px;
+}
+
+.entry{
+  height: 200px;
+  margin-top: 30px;
+}
+
+.input{
+  height: 45px;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center
+}
+
+.input label{
+  width: 25%;
+  line-height: 45px;
+  text-align: left;
+  font-size: 1.1em
+}
+
+.input input {
+  width: 45%;
+  line-height: 35px;
+  border: none;
+  font-size: 1.2em;
+  border-radius: 3px;
+  color: gray;
+  background: #dfe7fc
+}
+
+input:focus, select:focus, button:focus{
+  outline: none
+}
+
+.input select {
+  width: 45%;
+  height: 35px;
+  border: none;
+  font-size: 1.1em;
+  border-radius: 3px;
+  text-align-last: center;
+  color: gray;
+  background: #dfe7fc
+}
+
+.top button {
+  width: 180px;
+  height: 40px;
+  font-size: 1em;
+  margin-top: 10px;
+  border-radius: 3px;
+  border: none;
+  color: #515661;
+  background-image: linear-gradient(#d7dce9, #b9bec9)
+}
+
+button:hover {
+  cursor: pointer;
+  color: #2b3242;
+  background-image: linear-gradient(#b9bec9, #d7dce9)
+}
+
+
+.bottom {
+  height: 300px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleRes{
+  font-size: 1.4em;
+  opacity: 0;
+}
+
+.result{
+  width: 80%;
+  font-size: 1.5em;
+  opacity: 0;
+}
+
+.luckyNum{
+  margin-top: 10px;
+  font-size: 1.2em
+}
+
+.luckyNum .number{
+  font-size: 1.6em;
+}
+
+.fadeIn{
+  opacity: 1;
+  transition: opacity 0.3s ease
+}
+
+.fadeOut{
+  opacity: 0;
+  transition: opacity 0.3s ease
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- author -->
+  <meta name="author" content="Aiman Adlawan">
+  <!-- description -->
+  <meta name="description" content="Name Horoscope by Aiman Adlawan">
+  <!-- keywords -->
+  <meta name="keywords" content="Name Horoscope App by Aiman Adlawan">
+  <!-- icon -->
+  <link rel='icon' href='libs/img/js.png' type='image/x-icon'>
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+  <!-- css link -->
+  <link rel="stylesheet" href="css/style.css">
+  <title>Aimanski | Horoscope</title>
+</head>
+<body>
+  <div class="container">
+    <div class="top">
+        <!-- header -->
+      <div class="header">
+        <h1>Your Horoscope</h1>
+      </div>
+      <!-- input area -->
+      <div class="entry">
+        <div class="input">
+          <label for="">First Name</label>
+          <input id='name' type="text" placeholder="First Name">
+        </div>
+        <div class="input">
+          <label for="">Age</label>
+          <input id='age' type="number" min='10' max='100' value='18'> 
+        </div>
+        <div class="input">
+          <label for="">Sex</label>
+          <select name="sex" id="gender">
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+            <option value="bisexual">Bisexual</option>
+            <option value="gay">Gay</option>
+            <option value="lesbian">Lesbian</option>
+            <option value="transgender">Transgender</option>
+          </select>
+        </div>
+        <div class="input">
+          <label for="">Marital Status</label>
+          <select name="status" id="status">
+            <option value="single">Single</option>
+            <option value="dating">Still Dating</option>
+            <option value="married">Married</option>
+            <option value="divorced">Divorced</option>
+            <option value="widow">Widow/Widower</option>
+          </select>
+        </div>
+      </div>
+      <button id='show'>Show my future!</button>
+    </div>
+    <!-- end of the top -->
+
+    <!-- start of the bottom -->
+    <div class="bottom">
+      <!-- Text goes here -->
+    </div>
+      
+    <!-- end of bottom  -->
+  </div>
+</body>
+<script src='js/data.js'></script>
+<script src='js/script.js'></script>
+</html>
