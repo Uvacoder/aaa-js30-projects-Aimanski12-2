@@ -3,10 +3,10 @@
 > This app generates random horoscope forecast about your age, sex preferences and marital status. It also generates random number combinations for your luck. 
 
 [View it live from your browser.](http://bit.ly/2IGhcrs) Deployed with Firebase through ReactJS<br>
-[Watch Short Video Clip]() <br>
+[Watch Short Video Clip](https://www.youtube.com/watch?v=HDqh7HSmUPg) <br>
 
 <div float="left">
-  <a href="">
+  <a href="https://www.youtube.com/watch?v=HDqh7HSmUPg">
     <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-js28-horoscope.gif" alt="screen shot">
   </a>
 </div>
