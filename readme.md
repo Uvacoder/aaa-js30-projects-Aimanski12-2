@@ -6,6 +6,25 @@ Welcome to my Javascript Projects. This repo houses my javascript projects. Some
 
 The projects are listed from the latest. :arrow_up:
 
+
+<details>
+  <summary><strong>28. Horoscope<strong></summary>
+  
+  ### OverView 
+  
+  > This app generates random horoscope forecast about your age, sex preferences and marital status. It also generates random number combinations for your luck. 
+
+  [View it live from your browser.](http://bit.ly/2IGhcrs) Deployed with Firebase through ReactJS<br>
+  [View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj28). <br>
+  [Watch Short Video Clip](https://www.youtube.com/watch?v=HDqh7HSmUPg) <br>
+
+  <div float="left">
+    <a href="https://www.youtube.com/watch?v=HDqh7HSmUPg">
+      <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-js28-horoscope.gif" alt="screen shot">
+    </a>
+  </div>
+</details>
+
 <details>
   <summary><strong>27. Quotes<strong></summary>
   
