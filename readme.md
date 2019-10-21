@@ -2,12 +2,12 @@
 
 > This app is like a budget tracker. You can add income and expense sources from the form field and the app will generate a statistics of how you spend and how much you save money.
 
-[View it live from your browser.]() Deployed with Firebase through ReactJS<br>
+[View it live from your browser.](http://bit.ly/33TMkfx) Deployed with Firebase through ReactJS<br>
 [Watch Short Video Clip]() <br>
 
 <div float="left">
   <a href="">
-    <img src="" alt="screen shot">
+    <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-js29-budget.gif" alt="screen shot">
   </a>
 </div>
 
