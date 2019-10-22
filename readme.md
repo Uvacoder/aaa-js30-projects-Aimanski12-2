@@ -7,11 +7,32 @@ Welcome to my Javascript Projects. This repo houses my javascript projects. Some
 The projects are listed from the latest. :arrow_up:
 
 <details>
+  <summary><strong>Text Time Clock<strong></summary>
+  
+  ### OverView 
+  
+  > Coming Soon.
+
+</div>
+
+<details>
   <summary><strong>29. Budget Tracking App<strong></summary>
   
   ### OverView 
   
-  > This project is on going. Hond On
+  > This app is like a budget tracker. You can add income and expense sources from the form field and the app will generate a statistics of how you spend and how much you save money.
+
+[View it live from your browser.](http://bit.ly/33TMkfx) Deployed with Firebase through ReactJS<br>
+[View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj29). <br>
+[Watch Short Video Clip](https://www.youtube.com/watch?v=uNwAIlwhAYM) <br>
+
+<div float="left">
+  <a href="https://www.youtube.com/watch?v=uNwAIlwhAYM">
+    <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-js29-budget.gif" alt="screen shot">
+  </a>
+</div>
+
+
 </details>
 
 <details>
