@@ -7,13 +7,13 @@ Welcome to my Javascript Projects. This repo houses my javascript projects. Some
 The projects are listed from the latest. :arrow_up:
 
 <details>
-  <summary><strong>Text Time Clock<strong></summary>
+  <summary><strong>Text Clock<strong></summary>
   
   ### OverView 
   
   > Coming Soon.
+</details>
 
-</div>
 
 <details>
   <summary><strong>29. Budget Tracking App<strong></summary>
