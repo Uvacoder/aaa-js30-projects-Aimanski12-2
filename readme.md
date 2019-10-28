@@ -3,10 +3,10 @@
 > I got this idea for this project from Jennifer Dewalt in oe of her 180 website challenge. I had so much fun building this and learned so many things. 
 
 [View it live from your browser.](http://bit.ly/31O4JZA) Deployed with Firebase through ReactJS<br>
-[Watch Short Video Clip](https://www.youtube.com/watch?v=uNwAIlwhAYM) <br>
+[Watch Short Video Clip](https://www.youtube.com/watch?v=h_YD024VssE&t=35s) <br>
 
 <div float="left">
-  <a href="">
+  <a href="https://www.youtube.com/watch?v=h_YD024VssE&t=35s">
     <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-js30-textcalc.gif" alt="screen shot">
   </a>
 </div>
