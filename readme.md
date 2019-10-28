@@ -7,13 +7,22 @@ Welcome to my Javascript Projects. This repo houses my javascript projects. Some
 The projects are listed from the latest. :arrow_up:
 
 <details>
-  <summary><strong>Text Clock<strong></summary>
+  <summary><strong>30. Text Clock<strong></summary>
   
-  ### OverView 
-  
-  > Coming Soon.
-</details>
+  ### OverView
 
+  > I got this idea for this project from Jennifer Dewalt in oe of her 180 website challenge. I had so much fun building this and learned so many things. 
+
+  [View it live from your browser.](http://bit.ly/31O4JZA) Deployed with Firebase through ReactJS<br>
+  [View project source code](https://github.com/Aimanski12/Javascript_Projects/tree/proj30). <br>
+  [Watch Short Video Clip](https://www.youtube.com/watch?v=h_YD024VssE&t=35s) <br>
+
+<div float="left">
+  <a href="https://www.youtube.com/watch?v=h_YD024VssE&t=35s">
+    <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/proj-js30-textcalc.gif" alt="screen shot">
+  </a>
+</div>
+</details>
 
 <details>
   <summary><strong>29. Budget Tracking App<strong></summary>
