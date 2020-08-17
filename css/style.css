@@ -15,7 +15,7 @@ body {
   background: #0f113e
 }
 
-.container{
+.container {
   width: 750px;
   height: 620px;
   display: flex;
@@ -23,32 +23,158 @@ body {
   justify-content: center;
 }
 
-.hourContainer, .minContainer, .amPm{
+.hourContainer,
+.minContainer,
+.amPm {
   width: 100%;
 }
 
-ul{
+ul {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-li{
+li {
   font-size: 3.5em;
   color: #292a73;
-  line-height: 50px;
+  line-height: 55px;
   -webkit-transition: color 1s linear;
   transition: color 1s linear
 }
 
 
-.now{
+.now {
   color: #ff882c;
   text-shadow: 1px 1px 1px #7778c4;
   -webkit-transition: color 1s linear;
   transition: color 1s linear
 }
 
+footer {
+  position: absolute;
+  bottom: 0px;
+}
 
+footer span {
+  display: block;
+  color: #8E6749
+}
 
+footer span a {
+  text-decoration: none;
+  color: #8E6749;
+  font-size: 0.9em;
+}
+
+footer span:nth-child(2) {
+  margin-top: 5px;
+  font-size: 0.7em;
+}
+
+@media (max-width: 1068px) {
+  .container {
+    width: 692px;
+    height: 572px;
+  }
+
+  li {
+    font-size: 3.25em;
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 968px) {
+  .container {
+    width: 634px;
+    height: 530px;
+  }
+
+  li {
+    font-size: 3em;
+    line-height: 45px;
+  }
+}
+
+@media screen and (max-width: 896px) and (orientation: landscape) {
+  body {
+    height: 720px;
+  }
+
+  footer {
+    bottom: -380px
+  }
+}
+
+@media (max-width: 868px) {
+  .container {
+    width: 576px;
+    height: 500px;
+  }
+
+  li {
+    font-size: 2.75em;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 518px;
+    height: 460px;
+  }
+
+  li {
+    font-size: 2.5em;
+    line-height: 38px;
+  }
+}
+
+@media (max-width: 668px) {
+  .container {
+    width: 460px;
+    height: 440px;
+  }
+
+  li {
+    font-size: 2.25em;
+    line-height: 35px;
+  }
+}
+
+@media (max-width: 568px) {
+  .container {
+    width: 420px;
+    height: 370px;
+  }
+
+  li {
+    font-size: 2.1em;
+    line-height: 32px;
+  }
+}
+
+@media (max-width: 468px) {
+  .container {
+    width: 340px;
+    height: 280px;
+  }
+
+  li {
+    font-size: 1.7em;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 368px) {
+  .container {
+    width: 300px;
+    height: 310px;
+  }
+
+  li {
+    font-size: 1.5em;
+    line-height: 28px;
+  }
+}
