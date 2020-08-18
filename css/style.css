@@ -1,5 +1,6 @@
 * {
-  font-family: 'baloo chettan';
+  font-family: 'Baloo Chettan 2';
+  font-weight: 700;
   text-align: center;
   margin: 0;
   padding: 0
@@ -11,23 +12,32 @@ body {
   justify-content: center;
   flex-direction: column;
   height: 100vh;
-  background: #bfbbbb;
+  background: url('/libs/background.png') no-repeat center center;
+  background-size: cover;
 }
 
-.container{
-  width: 350px;
-  height: 490px;
+.container {
+  width: 420px;
+  height: 540px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #005076;
+  border-radius: 30px;
 }
 
 .header {
   height: 45px;
-  width: 100%;
+  width: 350px;
   font-size: 1em;
+  color: #BBCEDB;
+  
 }
 
 .scoreBoard {
   height: 45px;
-  width: 100%;
+  width: 350px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -46,14 +56,16 @@ body {
 }
 
 .me {
-  color: #610000;
+  color: #ff7a7a;
 }
 
 .ai {
- color: #166100
+  color: #3ac447
 }
-.me span, .ai span{
-  color: black;
+
+.me span,
+.ai span {
+  color: white;
   font-size: 1.3em;
 }
 
@@ -62,26 +74,27 @@ body {
 }
 
 .board {
-  background: black;
-  width: 100%;
+  background: #005076;
+  width: 350px;
   height: 350px;
 }
 
-.box{
+.box {
   width: 112px;
   height: 112px;
-  background: #bfbbbb;
+  background: #C4E6F5;
   float: left;
   font-size: 5em;
 }
 
-.board div:hover{
+.board div:hover {
   cursor: pointer;
 }
 
-.a0, .a1, .a3, .a4, .a6, .a7  {
+.a0, .a1, .a3, .a4, .a6, .a7 {
   margin-right: 7px
 }
+
 .a0, .a1, .a2, .a3, .a4, .a5 {
   margin-bottom: 7px
 }
@@ -93,15 +106,17 @@ body {
 .reset p {
   margin-top: 20px;
   font-size: 1.2em;
-  color: #175184
+  color: #9eb9d1;
+  transition: all 0.2s ease-in;
 }
 
 .reset p:hover {
   cursor: pointer;
-  color: #3d78ad;
+  color: #D8E8F6;
+  transition: all 0.2s ease-in;
 }
 
-.click{
+.click {
   animation: samp 0.2s linear
 }
 
@@ -119,15 +134,108 @@ body {
   }
 }
 
-.sign{
-  position: absolute;
+.message{
+  height: 60px;
+  width: 420px;
+}
+.sign {
+  text-align: center;
   z-index: 5;
-  top: 50%;
-  left: 50%;
-  /* background: teal; */
-  width: 350px;
-  margin: -20px 0 0 -175px;
-  font-size: 1.9em;
+  font-size: 1.2em;
   color: #f7a900;
   display: none;
 }
+
+.copyright {
+  margin-top: 20px
+}
+
+.copyright, .sourcecode a {
+  color: #C4E6F5;
+  font-size: 0.8em;
+}
+
+.sourcecode a{
+  text-decoration: none;
+  transition: all 0.2s ease-in;
+}
+
+.sourcecode a:hover {
+  color: #97bdce;
+  transition: all 0.2s ease-in;
+}
+
+@media screen and (max-width: 896px) and (orientation: landscape) {
+  body{
+    height: 720px;
+  }
+}
+
+@media (max-width: 568px){
+  .container {
+    width: 380px;
+    height: 488px;
+    border-radius: 25px;
+  }
+  .board {
+    width: 340px;
+    height: 340px;
+  }
+  .box {
+    font-size: 4.5em;
+    width: 108px;
+    height: 108px;
+  }
+  .reset p {
+    margin-top: 10px;
+  }
+  .message{
+    width: 380px;
+  }
+}
+
+@media (max-width: 468px) {
+  .container {
+    width: 350px;
+    border-radius: 16px;
+  }
+
+  .board {
+    background: #005076;
+    width: 320px;
+    height: 320px;
+  }
+
+  .box {
+    width: 102px;
+    height: 102px;
+    font-size: 4em;
+  }
+
+  .message {
+    width: 350px;
+  }
+}
+
+@media (max-width: 368px) {
+  .container {
+    width: 100%;
+    height: 420px;
+    border-radius: 0px;
+  }
+  .scoreBoard, .header, .message {
+    width: 100%;
+  }
+  .board {
+    background: #005076;
+    width: 280px;
+    height: 280px;
+  }
+
+  .box {
+    font-size: 3.8em;
+    width: 88px;
+    height: 88px;
+  }
+}
+

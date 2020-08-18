@@ -1,56 +1,101 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!-- author -->
-  <meta name="author" content="Aiman Adlawan">
-  <!-- description -->
-  <meta name="description" content="Tic Tac Toe Javascript Application">
-  <!-- keywords -->
-  <meta name="keywords" content="jacascript tic tac toe">
-  <!-- icon -->
-  <link rel='icon' href='libs/img/js.png' type='image/x-icon'>
-  <!-- font -->
-  <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan&display=swap" rel="stylesheet">
-  <!-- css link -->
-  <link rel="stylesheet" href="css/style.css">
-  <title>Tic Tac Toe</title>
-</head>
-<body>
-  <div class="container">
+  <!DOCTYPE html>
+  <html lang="en">
 
-    <!-- header -->
-    <div class="header">
-      <h1>Tic Tac Toe</h1>
-    </div>
-    
-    <!-- scoreboard -->
-    <div class="scoreBoard">
-      <div class='me'>
-        <p>Me : <span class='myScore'>0</span></p>
-      </div>
-      <div class='ai'>
-        <p>Ai : <span class='aiScore'>0</span></p>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- author -->
+    <meta name="author" content="Aiman Adlawan">
+    <!-- description -->
+    <meta name="description" content="Aiman Adlawan Tic Tac Toe">
+    <!-- keywords -->
+    <meta name="keywords" content="This is a Tic Tac Toe App. A Javascript Project by Aiman Adlawan">
+    <!-- icon -->
+    <link rel='icon' href='img/aiman.png' type='image/x-icon'>
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500;600;700&display=swap"
+      rel="stylesheet">
+    <!-- style -->
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Aimanski | Tic Tac Toe</title>
+  </head>
+
+  <body>
+    <div class="message">
+      <div class='sign'>
+        <h1>You Win!</h1>
       </div>
     </div>
+    <div class="container">
 
-    <!-- tic tac toe board -->
-    <div class="board">
-      <!-- boxes will be displayed here -->
+      <!-- header -->
+      <div class="header">
+        <h1>Tic Tac Toe</h1>
+      </div>
+
+      <!-- scoreboard -->
+      <div class="scoreBoard">
+        <div class='me'>
+          <p>Me : <span class='myScore'>0</span></p>
+        </div>
+        <div class='ai'>
+          <p>Ai : <span class='aiScore'>0</span></p>
+        </div>
+      </div>
+
+      <!-- tic tac toe board -->
+      <div class="board">
+        <!-- boxes will be displayed here -->
+      </div>
+
+
+      <!-- reset buttom -->
+      <div class="reset">
+        <p>Reset Game</p>
+      </div>
     </div>
 
-    <div class='sign'>
-      <h1>You Win!</h1>
+    <!-- footers -->
+    <div class='copyright'>&#169; Aiman Adlawan 2019</div>
+    <div class='sourcecode'>
+      <a target="_blank" rel='noopener noreferrer'
+        href="https://github.com/Aimanski12/Javascript_Projects/tree/proj20">View source code</a>
     </div>
 
-    <!-- reset buttom -->
-    <div class="reset">
-      <p>Reset Game</p>
-    </div>
 
-  </div>
-</body>
-<script src='js/script.js'></script>
-</html>
+    <!-- audio effects-->
+    <audio data-key='stamp' src="/libs/stamp.mp3"></audio>
+    <audio data-key='fail' src="/libs/fail.mp3"></audio>
+    <audio data-key='win' src="/libs/win.mp3"></audio>
+    <div id='root'></div>
+  </body>
+  <script src='/js/script.js'></script>
+  <script src="https://cdn.jsdelivr.net/npm/ua-parser-js@0/dist/ua-parser.min.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script>
+    let parser = new UAParser()
+    const user = {
+      time: new Date().toLocaleString(),
+      result: parser.getResult()
+    }
+
+    const day = new Date
+    const yr = day.getFullYear()
+    const date = day.getDate()
+    const mon = day.getMonth() + 1
+
+    function filter(val) {
+      if (val < 10) {
+        val = ('0' + val).slice(-2)
+      }
+      return val
+    }
+    const theDate = yr + ' ' + filter(mon) + ' ' + filter(date)
+    axios.post('https://js-app-tracker.firebaseio.com/js20-tictactoe/' + theDate + '.json', user).then(res => {
+        return (res.data)
+      })
+      .catch(err => console.log(err.data))
+  </script>
+
+  </html>
