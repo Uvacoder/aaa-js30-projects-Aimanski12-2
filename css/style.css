@@ -13,9 +13,11 @@ body {
   flex-direction: column;
   height: 100vh;
   background: #c77c09;
+  background: url('/img/background.png') no-repeat center center;
+  background-size: cover;
 }
 
-.container{
+.container {
   width: 550px;
   height: 600px;
   display: flex;
@@ -26,7 +28,7 @@ body {
   box-shadow: 5px 5px 5px #a6690c
 }
 
-.top{
+.top {
   opacity: 0;
   height: 130px;
   width: 100%;
@@ -34,27 +36,28 @@ body {
   justify-content: space-evenly;
 }
 
-.score{
+.score {
   width: 160px;
   height: 100%;
 }
 
-.score h1{
+.score h1 {
   font-size: 1.9em
 }
-.score p{
+
+.score p {
   font-size: 5em;
   line-height: 85px;
 }
 
 /* middle section css */
-.middle{
+.middle {
   height: 280px;
   width: 100%;
 }
 
 /* first section elements */
-.first{
+.first {
   margin-top: 15px;
   height: 120px;
   opacity: 1
@@ -68,26 +71,29 @@ body {
   margin-top: 20px;
   border-radius: 3px;
   color: #dc911e;
-  font-size: 1.25em
+  font-size: 1.25em;
+  transition: all 0.2s ease-in;
 }
 
-.first button:hover{
+.first button:hover {
+  transition: all 0.2s ease-in;
   background: #5d192c;
   color: #da8a10
 }
 
 /* second section elements */
-.second{
+.second {
   opacity: 0;
 }
 
-.handsContainer{
+.handsContainer {
   height: 230px;
   display: flex;
   justify-content: space-evenly;
 }
 
-.playerHand, .computerHand{
+.playerHand,
+.computerHand {
   width: 200px;
   display: flex;
   flex-direction: column;
@@ -95,28 +101,28 @@ body {
   align-items: center
 }
 
-img{
+img {
   width: 175px;
 }
 
-.playerHand img{
+.playerHand img {
   transform: rotateY(180deg);
   /* width: 200px */
 }
 
 
-.messageDisplay{
+.messageDisplay {
   height: 50px;
 }
 
 /* bottom part */
-.bottom{
+.bottom {
   opacity: 0;
   height: 50px;
   width: 100%;
 }
 
-.bottom button{
+.bottom button {
   width: 120px;
   height: 45px;
   margin: 10px 8px 0 8px;
@@ -124,21 +130,21 @@ img{
   font-size: 1.1em;
   border-radius: 3px;
   background: #370412;
- color: #dc911e;
+  color: #dc911e;
 }
 
-.bottom button:hover{
+.bottom button:hover {
   background: #5d192c;
   color: #da8a10;
   cursor: pointer;
 }
 
-.fadeOut{
+.fadeOut {
   opacity: 0;
   transition: opacity 0.3s ease
 }
 
-.fadeIn{
+.fadeIn {
   opacity: 1;
   transition: opacity 0.9s ease 0.3s
 }
@@ -241,5 +247,212 @@ img{
 
   100% {
     transform: scale(1)
+  }
+}
+
+@media screen and (max-width: 896px) and (orientation: landscape) {
+  body, .container {
+    height: 720px;
+  }
+}
+
+
+@media (max-width: 768px){
+  .container {
+    width: 500px;
+    height: 545px;
+  }
+  .score h1 {
+    font-size: 1.8em
+  }
+  .score p {
+    font-size: 4.8em;
+  }
+  .middle {
+    height: 260px;
+  }
+  .first {
+    height: 110px;
+  }
+  .first h1 {
+    font-size: 1.9em
+  };
+  .first button {
+    font-size: 1.2em;
+  }
+  .handsContainer {
+    height: 210px;
+  }
+  .playerHand, .computerHand {
+    width: 190px;
+  }
+  img {
+    width: 165px;
+  }
+  .messageDisplay h1 {
+    font-size: 1.9em;
+  }
+  .bottom {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 668px) {
+  .container {
+    width: 420px;
+  }
+  .score {
+    width: 150px;
+  }
+  .score h1 {
+    font-size: 1.7em
+  }
+  .score p {
+    font-size: 4.6em;
+  }
+  .middle {
+    height: 240px;
+  }
+  .first {
+    height: 110px;
+  }
+  .first h1 {
+    font-size: 1.8em
+  };
+  .first button {
+    font-size: 1.1em;
+  }
+  .handsContainer {
+    height: 200px;
+  }
+  .playerHand, .computerHand {
+    width: 175px;
+  }
+  img {
+    width: 150px;
+  }
+  .messageDisplay h1 {
+    font-size: 1.75em;
+  }
+  .bottom {
+    margin-top: 10px;
+  }
+  .bottom button {
+    width: 100px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 568px) {
+  .container {
+    width: 380px;
+    height: 520px;
+  }
+  .score h1 {
+    font-size: 1.6em
+  }
+  .score p {
+    font-size: 4.55em;
+  }
+  .first h1 {
+    font-size: 1.75em;
+  }
+  .first button {
+    height: 40px;
+    width: 140px;
+  }
+  .handsContainer {
+    height: 190px;
+  }
+  .playerHand, .computerHand {
+    width: 160px;
+  }
+  img {
+    width: 135px;
+  }
+  .messageDisplay h1 {
+    font-size: 1.6em;
+  }
+  .bottom button {
+    font-size: 1.05em;
+    margin: 0 5px;
+  }
+}
+
+
+
+@media (max-width: 468px) {
+  .container {
+    width: 340px;
+    height: 520px;
+  }
+  .score h1 {
+    font-size: 1.6em
+  }
+  .score p {
+    font-size: 4.4em;
+  }
+  .first h1 {
+    font-size: 1.65em;
+  }
+  .first button {
+    height: 40px;
+    width: 135px;
+  }
+  .handsContainer {
+    height: 190px;
+  }
+  .playerHand, .computerHand {
+    width: 150px;
+  }
+  img {
+    width: 125px;
+  }
+  .bottom button {
+    font-size: 1.05em;
+    width: 88px;
+    margin: 0 4px;
+  }
+}
+
+
+
+
+@media (max-width: 368px) {
+  .container {
+    width: 320px;
+    height: 470px;
+  }
+  .score h1 {
+    font-size: 1.5em
+  }
+  .score p {
+    font-size: 4.3em;
+  }
+  .middle {
+    height: 210px;
+  }
+  .first h1 {
+    font-size: 1.6em;
+  }
+
+  .first button {
+    font-size: 1em;
+  }
+  .handsContainer {
+    height: 150px;
+  }
+  .playerHand, .computerHand {
+    width: 140px;
+  }
+  img {
+    width: 115px;
+  }
+  .messageDisplay h1 {
+    font-size: 1.5em;
+  }
+
+  .bottom button {
+    font-size: 1.05em;
   }
 }
