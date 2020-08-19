@@ -4,48 +4,71 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400;500;600;800&display=swap" rel="stylesheet">
   <link rel='icon' href='img/js.png' type='image/x-icon'>
   <link rel="stylesheet" href="style.css">
   <title>Javascript Block Puzzle</title>
 </head>
-<body>
-  <div class="container">
-    <div class="boxContainer">
-      <button>1</button>
-      <button>2</button>
-      <button>3</button>
-      <button>4</button>
-      <button>5</button>
-      <button>6</button>
-      <button>7</button>
-      <button>8</button>
-      <button>9</button>
-      <button>10</button>
-      <button>11</button>
-      <button>12</button>
-      <button>13</button>
-      <button>14</button>
-      <button>15</button>
-      <button>16</button>
-      <button>17</button>
-      <button>18</button>
-      <button>19</button>
-      <button>20</button>
-      <button>21</button>
-      <button>22</button>
-      <button>23</button>
-      <button>24</button>
-      <button></button>
-    </div>
+<body class='content-center'>
+  <div class="content-center container">
 
-    <div class="navs">
-      <span id="move">Moves: 0</span>
-      <span id="time">Time: 0:00</span>
-      <button class='play'>Play</button>
+      <!-- intro  -->
+      <div class='content-center intro'>
+        <h1>Block Puzzle</h1>
+        <p>In 1880, Noyes Chapman from New York, invented the first sliding block puzzle. It was called the 15-square puzzle which consisted of a wooden tablet with a 4x4 grid. At that time, it became so popular all over the world. Both kids and adults play with it.</p>
+        <button type='button'>Continue</button>
+      </div>
+
+      <!-- board -->
+      <div class="board">
+        <div class="boxContainer">
+          <button>1</button>
+          <button>2</button>
+          <button>3</button>
+          <button>4</button>
+          <button>5</button>
+          <button>6</button>
+          <button>7</button>
+          <button>8</button>
+          <button>9</button>
+          <button>10</button>
+          <button>11</button>
+          <button>12</button>
+          <button>13</button>
+          <button>14</button>
+          <button>15</button>
+          <button>16</button>
+          <button>17</button>
+          <button>18</button>
+          <button>19</button>
+          <button>20</button>
+          <button>21</button>
+          <button>22</button>
+          <button>23</button>
+          <button>24</button>
+          <button></button>
+        </div>
+      
+        <div class="content-center navs">
+          <span id="move">Moves: 0</span>
+          <span id="time">Time: 0:00</span>
+          <button class='play'>Play</button>
+        </div>
+      </div>
+
     </div>
-  </div>
-  <h1 class="mes"></h1>
+    <audio data-key='intro' src="/audio/intro.mp3"></audio>
+    <audio data-key='move' src="/audio/move.mp3"></audio>
+      
+    <h1 class="mes"></h1>
+
+    <div class="footer">
+      <span>&#169; Aiman Adlawan 2019</span>
+      <span>
+        <a target='_blank'
+          rel='noopener noreferrer'
+          href="https://github.com/Aimanski12/Javascript_Projects/tree/proj13">View source code</a></span>
+    </div>
 
 </body>
 <script src='script.js'></script>

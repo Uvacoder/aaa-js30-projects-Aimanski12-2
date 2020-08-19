@@ -1,7 +1,9 @@
+const introaudio = document.querySelector('audio[data-key="intro"]');
+const movaudio = document.querySelector('audio[data-key="move"]');
+
 
 let time = 0
 let moves = 0
-let gameReset = false
 let solved = false
 let gameLoaded = true
 
@@ -27,8 +29,11 @@ const startGame = () => {
 
 // create an array of 25 numbers
 const generateArray = (arr) => {
-  for (x=0; x <= 25; x++){
-    x !== 0 ? arr.push(x) : null
+  for (var x=0; x <= 25; x++){
+    if(x !== 0){
+      arr.push(x)  
+    }
+    
   }
   return arr
 }
@@ -69,7 +74,7 @@ const render = (original, btnArr) => {
   
         btn.addEventListener('click', btnListener)
   
-        btn.textContent = btnArr[x][y] == 25 ? '' : btnArr[x][y]
+        btn.textContent = btnArr[x][y] === 25 ? '' : btnArr[x][y]
         newDiv.appendChild(btn)
     }
   }
@@ -128,7 +133,7 @@ const btnIsClicked = (original, btnArr, x, y) => {
   // check the value of the top box
   const top = () =>{
     let t = []
-    if(x == 0) return null
+    if(x === 0) return null
     t.push(x - 1, y)
     return t
   }
@@ -136,7 +141,7 @@ const btnIsClicked = (original, btnArr, x, y) => {
   // check the value of the bottom box
   const right = () => {
     let r = []
-    if (y == 4) return null
+    if (y === 4) return null
     r.push(x, y + 1)
     return r
   }
@@ -144,7 +149,7 @@ const btnIsClicked = (original, btnArr, x, y) => {
   // check the value of the bottom box
   const bottom = () => {
     let b = []
-    if (x == 4) return null
+    if (x === 4) return null
     b.push(x + 1, y)
     return b
   }
@@ -152,7 +157,7 @@ const btnIsClicked = (original, btnArr, x, y) => {
   // check the value of the left box
   const left = () => {
     let l = []
-    if (y == 0) return null
+    if (y === 0) return null
     l.push(x, y - 1)
     return l
   }
@@ -193,6 +198,7 @@ function swapBtn(original, sideBtnVal, btnArr, x, y){
       btnArr[sideBtnVal[n][0]][sideBtnVal[n][1]] = tempArr
 
       render(original, btnArr)
+      movaudio.play()
 
       evaluateIfTheSame(original, btnArr)
     }
@@ -206,8 +212,8 @@ const evaluateIfTheSame = (orig, btn) => {
   // this variable is an increment place to check how many boxes are correct
   let right = 0
   // loop through the array and compare if they have the same value
-  for(x=0; x < orig.length; x++){
-    for (y = 0; y < orig[x].length; y++) {
+  for(var x=0; x < orig.length; x++){
+    for (var y = 0; y < orig[x].length; y++) {
       if(orig[x][y] === btn[x][y]){
         right++
       }
@@ -215,7 +221,7 @@ const evaluateIfTheSame = (orig, btn) => {
   }
 
   //  if all are correct, end the game
-  if(right == 25) {
+  if(right === 25) {
     solved = true
     gameLoaded = true
     play.textContent = 'Play'
@@ -235,7 +241,7 @@ const move = document.querySelector('#move')
 const incrementMoveCounter = () => {
 
   // increment moves
-  if(solved == true){
+  if(solved === true){
     move.innerHTML = `Moves: ${moves}`  
   } else {
     moves++
@@ -247,11 +253,33 @@ const incrementMoveCounter = () => {
 
 const play = document.querySelector('.play')
 const mes = document.querySelector('.mes')
+const intro = document.querySelector('.intro')
+const cont = document.querySelector('.intro button')
+const board = document.querySelector('.board')
+
 
 window.addEventListener('load', () => {
-  mes.textContent = 'Arange the numbers according to its order.'
-
+  intro.classList.add('show')
+  // mes.textContent = 'Arange the numbers according to its order.'
+  
 })
+
+cont.addEventListener('click', continuePlay)
+
+function continuePlay() {
+  introaudio.play()
+  intro.classList.remove('show')
+  setTimeout(()=>{
+    intro.style.display = 'none'
+    board.style.display = 'block'
+    setTimeout(()=>{
+      mes.textContent = 'Arange the numbers according to its order.'
+      board.classList.add('show')
+    }, 100)
+  },300)
+}
+
+
 
 play.addEventListener('click', playGame)
 

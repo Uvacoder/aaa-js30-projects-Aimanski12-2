@@ -1,4 +1,4 @@
-## Drag and Drop
+## Block Puzzle
 
 
 > Block Puzzles are one of my favorite toys that I always played with when I was a little boy. I was inspired to build this using Javascript. I was so happy after I build it. I learned so many things from this.

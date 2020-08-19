@@ -2,22 +2,34 @@ html {
   height: 100%;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Baloo Chettan 2';
+}
+
 body {
   height: 100%;
   background: url('./img/b.jpg') center;
   background-size: contain;
+  font-weight: 800;
+  flex-direction: column;
+}
+
+.content-center {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  font-family: 'baloo chettan'
 }
 
 .container {
-  box-shadow: 5px 6px 4px rgba(200,186,186, .5);
+  width: 400px;
+  height: 460px;
+  box-shadow: 5px 6px 4px rgba(200, 186, 186, .5);
   padding: 15px;
   background-color: #4b4545;
   border-radius: 5px;
+  flex-direction: column;
 }
 
 .boxContainer {
@@ -25,45 +37,53 @@ body {
   grid-template-columns: 80px 80px 80px 80px 80px;
   grid-template-rows: 80px 80px 80px 80px 80px;
   border: 1px solid #a8a5a5;
+  padding: 2px
 }
 
 .boxContainer button {
   background-color: #464646;
   color: #eedede;
   font-size: 32px;
-  font-weight: bold;
+  font-weight: 800;
   border: 1px solid #a18e8e;
+  border-radius: 4px;
   margin: 1.5px;
   outline: none;
   cursor: pointer;
-  font-family: 'baloo chettan';
   font-weight: 100
 }
 
 .navs {
+  width: 100%;
   margin-top: 15px;
-  display: flex;
-  justify-content: space-between;
+  flex-direction: row;
 }
 
-.navs button {
+.board {
+  display: none;
+  opacity: 0;
+  transition: all 0.3s ease-in;
+}
+
+.navs button, .intro button {
   border: none;
   font-size: 16px;
   font-weight: bold;
   height: 35px;
   border-radius: 5px;
-  box-shadow: 2px 2px 4px rgba(26,25,25, 0.5);
+  box-shadow: 2px 2px 4px rgba(26, 25, 25, 0.5);
   padding: 5px;
-  width: 80px;
+  min-width: 80px;
   background-color: #676565;
   color: #eedede;
   outline: none;
   cursor: pointer;
-  font-family: 'baloo chettan';
-  font-weight: 100
+  font-weight: 600;
+  transition: all 0.2s ease-in;
 }
 
-.navs button:hover {
+.navs button:hover, .intro button:hover{
+  transition: all 0.2s ease-in;
   color: #b29999;
   background-color: #524646;
 }
@@ -79,6 +99,177 @@ body {
 
 .mes {
   color: #daeac5;
-  height: 80px;
+  height: 40px;
   font-weight: 200;
+  font-size: 1.4em;
+  margin-top: 20px
 }
+
+.intro {
+  color: #CECECE;
+  flex-direction: column;
+  opacity: 0;
+  transition: all 0.3s ease-in;
+}
+
+.intro h1 {
+  font-size: 1.8em;
+  margin-bottom: 40px;
+}
+
+.intro p {
+  width: 95%;
+  line-height: 25px;
+  text-align: center;
+  margin-bottom: 60px;
+  font-weight: 500;
+}
+
+.show {
+  opacity: 1;
+  transition: all 0.3s ease-in;
+}
+
+.footer {
+  position: absolute;
+  bottom: 15px;
+}
+
+.footer span {
+  display: block;
+  text-align: center;
+  color: #CECECE;
+  font-size: 0.9em;
+  font-weight: 400;
+}
+
+.footer span a{
+  font-weight: 400;
+  color: #CECECE;
+  font-size: 0.9em;
+  text-decoration: none;
+}
+
+
+@media screen and (max-width: 896px) and (orientation: landscape) {
+  body {
+    height: 720px;
+  }
+  .footer {
+    bottom: calc(-720px + 100vh)
+  }
+}
+
+@media (max-width: 668px) {
+  .container {
+    width: 380px;
+    height: 440px;
+  }
+  .boxContainer {
+    grid-template-columns: 76px 76px 76px 76px 76px;
+    grid-template-rows: 76px 76px 76px 76px 76px;
+  }
+  .boxContainer button {
+    font-size: 29px;
+  }
+  .mes {
+    font-size: 1.3em;
+  }
+}
+
+
+@media (max-width: 568px) {
+  .container {
+    width: 360px;
+    height: 420px;
+  }
+  .boxContainer {
+    grid-template-columns: 72px 72px 72px 72px 72px;
+    grid-template-rows: 72px 72px 72px 72px 72px;
+  }
+  .boxContainer button {
+    font-size: 27px;
+  }
+  .navs button, .intro button {
+    font-size: 15px;
+  }
+  .navs span {
+    font-size: 16px;
+  }
+  .mes {
+    font-size: 1.2em;
+  }
+  .intro h1 {
+    font-size: 1.7em;
+  }
+  .intro p {
+    font-size: 0.95em;
+  }
+}
+
+
+@media (max-width: 468px) {
+  .container {
+    width: 320px;
+    height: 380px;
+  }
+  .boxContainer {
+    grid-template-columns: 64px 64px 64px 64px 64px;
+    grid-template-rows: 64px 64px 64px 64px 64px;
+  }
+  .boxContainer button {
+    font-size: 24px;
+    border-radius: 2px;
+  }
+  .navs button, .intro button {
+    font-size: 15px;
+  }
+  .navs span {
+    font-size: 16px;
+  }
+  .mes {
+    font-size: 1.1em;
+  }
+  .intro h1 {
+    font-size: 1.65em;
+    margin-bottom: 20px;
+  }
+  .intro p {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 368px) {
+  .container {
+    width: 290px;
+    height: 350px;
+  }
+
+  .boxContainer {
+    grid-template-columns: 58px 58px 58px 58px 58px;
+    grid-template-rows: 58px 58px 58px 58px 58px;
+  }
+
+  .boxContainer button {
+    font-size: 20px;
+  }
+
+  .navs button, .intro button {
+    font-size: 14px;
+  }
+  .navs span {
+    font-size: 14px;
+  }
+  .mes {
+    font-size: 1em;
+  }
+  .intro h1 {
+    font-size: 1.65em;
+    margin-bottom: 20px;
+  }
+  .intro p {
+    margin-bottom: 40px;
+  }
+}
+
+
