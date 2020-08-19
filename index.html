@@ -12,7 +12,7 @@
     <!-- keywords -->
     <meta name="keywords" content="This is a Tic Tac Toe App. A Javascript Project by Aiman Adlawan">
     <!-- icon -->
-    <link rel='icon' href='img/aiman.png' type='image/x-icon'>
+    <link rel='icon' href='/libs/aiman.png' type='image/x-icon'>
     <!-- font -->
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500;600;700&display=swap"
       rel="stylesheet">
@@ -71,31 +71,4 @@
     <div id='root'></div>
   </body>
   <script src='/js/script.js'></script>
-  <script src="https://cdn.jsdelivr.net/npm/ua-parser-js@0/dist/ua-parser.min.js"></script>
-  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-  <script>
-    let parser = new UAParser()
-    const user = {
-      time: new Date().toLocaleString(),
-      result: parser.getResult()
-    }
-
-    const day = new Date
-    const yr = day.getFullYear()
-    const date = day.getDate()
-    const mon = day.getMonth() + 1
-
-    function filter(val) {
-      if (val < 10) {
-        val = ('0' + val).slice(-2)
-      }
-      return val
-    }
-    const theDate = yr + ' ' + filter(mon) + ' ' + filter(date)
-    axios.post('https://js-app-tracker.firebaseio.com/js20-tictactoe/' + theDate + '.json', user).then(res => {
-        return (res.data)
-      })
-      .catch(err => console.log(err.data))
-  </script>
-
   </html>
