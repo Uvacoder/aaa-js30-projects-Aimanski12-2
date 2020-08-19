@@ -1,5 +1,5 @@
 * {
-  font-family: 'baloo chettan';
+  font-family: 'berkshire swash', verdana;
   text-align: center;
   margin: 0;
   padding: 0
@@ -13,29 +13,25 @@ body {
   height: 100vh;
 }
 
-.quote{
+.quote {
   width: 80%;
   margin-bottom: 25px;
-  font-size: 2.3em;
+  font-size: 3.2em;
   opacity: 0;
 }
 
-.author{
+.author {
   font-size: 1.7em;
   opacity: 0;
 }
 
-.btn{
-  margin-top: 15px;
-  font-size: 1.2em;
+.btn {
+  margin-top: 60px;
+  font-size: 1.15em;
   opacity: 0;
+  font-family: 'Alata';
 }
 
-button{
-  width: 150px;
-  height: 40px;
-  margin-top: 50px
-}
 
 .fadeIn {
   opacity: 1;
@@ -44,5 +40,141 @@ button{
 
 .fadeOut {
   opacity: 0;
-  transition: opacity 0.4s ease
+  transition: opacity 0.3s ease
+}
+
+.footer {
+  position: absolute;
+  bottom: 15px;
+}
+
+.footer span {
+  display: block;
+  font-size: 0.8em;
+  font-family: 'Alata', Helvetica, sans-serif;
+}
+
+.footer span a{
+  text-decoration: none;
+  font-family: 'Alata', Helvetica, sans-serif;
+}
+
+@media(max-width: 1268px) {
+  .quote {
+    font-size: 3.04em;
+  }
+  .author {
+    font-size: 1.65em;
+  }
+}
+
+@media(max-width: 1168px) {
+  .quote {
+    font-size: 2.88em;
+  }
+  .author {
+    font-size: 1.62em;
+  }
+}
+
+@media(max-width: 1068px) {
+  .quote {
+    font-size: 2.72em;
+  }
+  .author {
+    font-size: 1.58em;
+  }
+  .btn {
+    font-size: 1.13em;
+  }
+}
+
+@media(max-width: 968px) {
+  .quote {
+    font-size: 2.56em;
+    width: 85%;
+  }
+  .author {
+    font-size: 1.52em;
+  }
+  .btn {
+    font-size: 1.12em;
+  }
+}
+
+@media screen and (max-width: 896px) and (orientation: landscape) {
+  body {
+    height: 720px;
+  }
+  .footer {
+    bottom: -270px
+  }
+}
+
+@media(max-width: 868px) {
+  .quote {
+    font-size: 2.4em;
+  }
+  .author {
+    font-size: 1.48em;
+  }
+  .btn {
+    font-size: 1.1em;
+  }
+}
+
+@media(max-width: 768px) {
+  .quote {
+    font-size: 2.24em;
+    width: 90%;
+  }
+  .author {
+    font-size: 1.42em;
+  }
+  .btn {
+    font-size: 1.08em;
+  }
+}
+
+@media(max-width: 668px) {
+  .quote {
+    font-size: 2.08em;
+  }
+  .author {
+    font-size: 1.39em;
+  }
+  .btn {
+    font-size: 1.05em;
+  }
+}
+
+@media(max-width: 568px) {
+  .quote {
+    font-size: 1.92em;
+    width: 94%;
+  }
+  .author {
+    font-size: 1.36em;
+  }
+}
+
+@media(max-width: 468px) {
+  .quote {
+    font-size: 1.76em;
+  }
+
+  .author {
+    font-size: 1.32em;
+  }
+}
+
+@media(max-width: 368px) {
+  .quote {
+    font-size: 1.6em;
+    width: 96%;
+  }
+
+  .author {
+    font-size: 1.3em;
+  }
 }
